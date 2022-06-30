@@ -49,6 +49,6 @@ jobs:
           python repo/pr_status.py ${{ github.event.inputs.filter }} > pages/index.md
           pushd pages
           git add index.md
-          git commit -m "CI update" || exit(0)
+          git commit -m "CI update" || exit 0
           git push origin gh-pages
           popd
