@@ -40,6 +40,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          mkdir pages
           python pr_status.py ${{ github.event.inputs.filter }} > pages/index.md
           
       - name: Deploy 
