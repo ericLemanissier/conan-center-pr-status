@@ -1,33 +1,69 @@
-import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime
 import subprocess
 import json
 import sys
+import xml.etree.ElementTree as ET
+import requests
 
 f_regex = re.compile("^(\d+)(-(.+))?$")
 
 def process_pr(pr_number):
-    last_stamp = 0
+    last_stamp = None
 
-    root_url = f"//c3i.jfrog.io/c3i/misc/logs/pr/{pr_number}"
+    root_url = f"https://c3i.jfrog.io/c3i/misc/logs/pr/{pr_number}"
+
 
     def iterate_folder(path):
         nonlocal  last_stamp
-        try:
-            with os.scandir(path) as it:
-                for entry in it:
-                    last_stamp = max(entry.stat().st_mtime, last_stamp)
-                    if entry.name.startswith('.'):
-                        continue
-                    yield entry
-        except FileNotFoundError:
-            print(f"file not found {path}")
+        r = requests.request("PROPFIND", path, headers={"Depth":"1"})
+        r.raise_for_status()
+        root = ET.fromstring(r.text)
+        base_path = None
+        for e in root:
+            href_el = e[0]
+            assert href_el.tag == "{DAV:}href"
+
+
+            class Entry:
+                is_dir: bool
+                name: str
+                path: str
+
+            res = Entry()
+
+            cur_path = href_el.text
+            if not base_path:
+                base_path = cur_path
+                continue
+            assert cur_path.startswith(base_path)
+            res.name = cur_path[len(base_path) + 1:]
+            res.path = f"{path}/{res.name}"
+
+            propstat_el = e[1]
+            assert propstat_el.tag == "{DAV:}propstat"
+
+            res.is_dir = False
+            creationdate = None
+            props_el = propstat_el[0]
+            assert props_el.tag == "{DAV:}prop"
+            for prop in props_el:
+                if prop.tag == "{DAV:}resourcetype":
+                    for type in prop:
+                        if type.tag == "{DAV:}collection":
+                            res.is_dir = True
+                            break
+                if prop.tag == "{DAV:}creationdate":
+                    creationdate= datetime.fromisoformat(prop.text[:-1])
+                    if not last_stamp or creationdate > last_stamp:
+                        last_stamp = creationdate
+
+            yield res
 
     build_number = 0
     configs = []
     for entry in iterate_folder(root_url):
-        if not entry.is_dir():
+        if not entry.is_dir:
             continue
         result = f_regex.match(entry.name)
         current_build_number = int(result.group(1))
@@ -48,17 +84,17 @@ def process_pr(pr_number):
         nonlocal status_dict
         nonlocal package_name
         for p in iterate_folder(path):
-            if not p.is_dir():
+            if not p.is_dir:
                 continue
             package_name = p.name
             for v in iterate_folder(p.path):
-                if not v.is_dir():
+                if not v.is_dir:
                     continue
                 version = v.name
                 if version not in status_dict:
                     status_dict[version] = {}
 
-                status = "[in progress](https:%s)" % v.path.replace('\\', '/')
+                status = f"[in progress]({v.path})"
                 n_profile = 0
                 n_build = 0
                 n_test = 0
@@ -71,7 +107,7 @@ def process_pr(pr_number):
                     if f.name.endswith("-test.txt"):
                         n_test += 1
                     if f.name == "summary.json":
-                        status = "[finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https:%s)" % f.path.replace('\\', '/')
+                        status = f"[finished](https://c3i.jfrog.io/c3i/misc/summary.html?json={f.path})"
 
                 descr = f"{status}"
                 if n_profile:
@@ -83,10 +119,10 @@ def process_pr(pr_number):
                 status_dict[version][config or "global"] = descr
 
     for config in configs:
-        current_path = os.path.join(root_url, f"{build_number}" + (f"-{config}" if config else ""))
+        current_path = f"{root_url}/{build_number}" + (f"-{config}" if config else "")
         if config == "configs":
             for entry in iterate_folder(current_path):
-                if not entry.is_dir():
+                if not entry.is_dir:
                     continue
                 process_config(entry.path, entry.name)
         else:
@@ -94,7 +130,7 @@ def process_pr(pr_number):
 
     print(f"\n# {package_name}\n")
     print(f"[pr #{pr_number}](https://github.com/conan-io/conan-center-index/pull/{pr_number}) [build {build_number}]({root_url}). last update on ", end="")
-    print(datetime.fromtimestamp(last_stamp,tz=timezone.utc))
+    print(last_stamp)
     print("")
     configs = ["global", "linux-gcc", "linux-clang", "windows-visual_studio", "macos-clang", "macos-m1-clang"]
     print("| version |", end="")
