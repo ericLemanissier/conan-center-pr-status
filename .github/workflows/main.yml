@@ -4,47 +4,33 @@ name: CI
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     branches: [ "main" ]
   schedule:
     - cron:  '0 * * * *'
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-    inputs:
-      filter:
-        description: 'A filter for pull requests'
-        default: '--author ericLemanissier'
-        required: false
-        type: string
 
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v1
         with:
           python-version: "3.8"
       - run: "pip3 install requests"
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Generate web page
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir pages
-          python pr_status.py ${{ github.event.inputs.filter }} > pages/index.md
+          python pr_status.py | tee pages/index.md
           
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: pages # The folder the action should deploy.
+          clean: false
