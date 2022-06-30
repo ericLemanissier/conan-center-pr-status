@@ -30,6 +30,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+        with:
+          path: "repo"
+      - uses: actions/checkout@v3
+        with:
+          ref: "gh-pages"
+          path: "pages"
       - uses: actions/setup-python@v1
         with:
           python-version: "3.8"
@@ -40,4 +46,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python pr_status.py ${{ github.event.inputs.filter }}
+          python repo/pr_status.py ${{ github.event.inputs.filter }} > pages/index.md
+          pushd pages
+          git add index.md
+          git commit -m "CI update" || exit(0)
+          git push origin gh-pages
+          popd
