@@ -15,7 +15,7 @@ jobs:
     uses: ./.github/workflows/manual.yml
     with:
       filter: --author ericLemanissier
-      page: index
+      page: custom
 
   global:
     uses: ./.github/workflows/manual.yml
