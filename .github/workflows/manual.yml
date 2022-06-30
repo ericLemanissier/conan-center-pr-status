@@ -10,6 +10,23 @@ on:
         default: '--author ericLemanissier'
         required: false
         type: string
+      page:
+        description: 'The output page name'
+        default: 'custom'
+        required: true
+        type: string
+  workflow_call:
+    inputs:
+      filter:
+        description: 'A filter for pull requests'
+        default: '--author ericLemanissier'
+        required: false
+        type: string
+      page:
+        description: 'The output page name'
+        default: 'custom'
+        required: true
+        type: string
 
 
 jobs:
@@ -28,7 +45,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir pages
-          python pr_status.py ${{ github.event.inputs.filter }} | tee pages/custom.md
+          python pr_status.py ${{ github.event.inputs.filter }} | tee pages/${{ github.event.inputs.page }}.md
           
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@4.1.5
