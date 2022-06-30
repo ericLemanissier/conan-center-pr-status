@@ -48,9 +48,8 @@ jobs:
           python pr_status.py ${{ inputs.filter }} | tee pages/${{ inputs.page }}.md
           
       - name: Deploy 
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          publish_branch: gh-pages # The branch the action should deploy to.
-          publish_dir: pages # The folder the action should deploy.
-          keep_files: true
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages # The branch the action should deploy to.
+          folder: pages # The folder the action should deploy.
+          clean: false
