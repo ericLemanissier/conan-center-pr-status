@@ -45,7 +45,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir pages
-          python pr_status.py ${{ github.event.inputs.filter }} | tee pages/${{ github.event.inputs.page }}.md
+          python pr_status.py ${{ inputs.filter }} | tee pages/${{ inputs.page }}.md
           
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@4.1.5
