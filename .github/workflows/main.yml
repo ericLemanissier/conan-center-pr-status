@@ -15,22 +15,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v1
+      - uses: ./.github/workflows/manual.yml
         with:
-          python-version: "3.8"
-      - run: "pip3 install requests"
+          filter: --author ericLemanissier
+          page: index
 
-      - name: Generate web page
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          mkdir pages
-          python pr_status.py | tee pages/index.md
-          
-      - name: Deploy 
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+      - uses: ./.github/workflows/manual.yml
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: pages # The folder the action should deploy.
-          clean: false
+          filter: ''
+          page: index
