@@ -36,4 +36,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python pr_status.py ${{ inputs.filter }}
+          python pr_status.py ${{ github.event.inputs.filter }}
