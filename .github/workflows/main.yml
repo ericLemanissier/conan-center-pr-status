@@ -11,18 +11,14 @@ on:
 
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  ericLemanissier:
+    uses: ./.github/workflows/manual.yml
+    with:
+      filter: --author ericLemanissier
+      page: index
 
-    steps:
-      - uses: actions/checkout@v3
-
-      - uses: ./.github/workflows/manual.yml
-        with:
-          filter: --author ericLemanissier
-          page: index
-
-      - uses: ./.github/workflows/manual.yml
-        with:
-          filter: ''
-          page: index
+  global:
+    uses: ./.github/workflows/manual.yml
+    with:
+      filter: ''
+      page: index
