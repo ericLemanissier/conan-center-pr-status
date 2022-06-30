@@ -151,7 +151,7 @@ def process_pr(pr_number):
     print("")
 
 if __name__ == '__main__':
-    command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index"]
+    command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index", "--limit", "200"]
     command.extend(sys.argv[1:])
     output = subprocess.check_output(command)
     prs = json.loads(output)
