@@ -25,14 +25,14 @@
 
 # harfbuzz [#11409](https://github.com/conan-io/conan-center-index/pull/11409)
 
-[build 16](https://c3i.jfrog.io/c3i/misc/logs/pr/11409). last update on 2022-07-01 18:53:34
+[build 16](https://c3i.jfrog.io/c3i/misc/logs/pr/11409). last update on 2022-07-01 19:05:43
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 4.4.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/16-linux-gcc/harfbuzz/4.4.1/summary.json), 32&nbsp;profiles, 32&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/16-linux-clang/harfbuzz/4.4.1/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11409/16-configs/macos-clang/harfbuzz/4.4.1), 2&nbsp;profiles, 2&nbsp;tests |  |
-| 2.7.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11409/16-linux-gcc/harfbuzz/2.7.4), 36&nbsp;profiles, 36&nbsp;tests |  |  |  |  |
-| 3.0.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11409/16-linux-gcc/harfbuzz/3.0.0), 32&nbsp;profiles, 32&nbsp;tests |  |  |  |  |
-| 4.1.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11409/16-linux-gcc/harfbuzz/4.1.0), 29&nbsp;profiles, 29&nbsp;tests |  |  |  |  |
+| 2.7.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/16-linux-gcc/harfbuzz/2.7.4/summary.json), 40&nbsp;profiles, 40&nbsp;tests |  |  |  |  |
+| 3.0.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11409/16-linux-gcc/harfbuzz/3.0.0), 39&nbsp;profiles, 39&nbsp;tests |  |  |  |  |
+| 4.1.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11409/16-linux-gcc/harfbuzz/4.1.0), 31&nbsp;profiles, 31&nbsp;tests |  |  |  |  |
 
 
 # libglvnd [#11121](https://github.com/conan-io/conan-center-index/pull/11121)
