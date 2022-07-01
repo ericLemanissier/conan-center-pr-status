@@ -1,23 +1,23 @@
 
 # gtest [#11467](https://github.com/conan-io/conan-center-index/pull/11467)
 
-[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11467). last update on 2022-07-01 10:24:03
+[build 4](https://c3i.jfrog.io/c3i/misc/logs/pr/11467). last update on 2022-07-01 11:47:45
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.11.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11467/2-linux-gcc/gtest/1.11.0/summary.json), 18&nbsp;profiles, 17&nbsp;builds, 16&nbsp;tests |  |  |  |  |
-| 1.12.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11467/2-linux-gcc/gtest/1.12.1/summary.json), 19&nbsp;profiles, 16&nbsp;builds, 9&nbsp;tests |  |  |  |  |
-| 1.8.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11467/2-linux-gcc/gtest/1.8.1/summary.json), 16&nbsp;profiles, 16&nbsp;builds, 15&nbsp;tests |  |  |  |  |
-| cci.20210126 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11467/2-linux-gcc/gtest/cci.20210126/summary.json), 18&nbsp;profiles, 13&nbsp;builds, 12&nbsp;tests |  |  |  |  |
+| 1.10.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/4-linux-gcc/gtest/1.10.0), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
+| 1.12.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/4-linux-gcc/gtest/1.12.1), 10&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests |  |  |  |  |
+| 1.8.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/4-linux-gcc/gtest/1.8.1), 19&nbsp;profiles, 2&nbsp;builds, 2&nbsp;tests |  |  |  |  |
+| cci.20210126 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/4-linux-gcc/gtest/cci.20210126), 10&nbsp;profiles |  |  |  |  |
 
 
 # arsenalgear [#11466](https://github.com/conan-io/conan-center-index/pull/11466)
 
-[build 3](https://c3i.jfrog.io/c3i/misc/logs/pr/11466). last update on 2022-07-01 11:31:45
+[build 4](https://c3i.jfrog.io/c3i/misc/logs/pr/11466). last update on 2022-07-01 11:47:41
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.2.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11466/3-linux-gcc/arsenalgear/1.2.2/summary.json), 32&nbsp;profiles, 32&nbsp;builds, 32&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11466/3-linux-clang/arsenalgear/1.2.2/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11466/3-configs/macos-clang/arsenalgear/1.2.2/summary.json), 7&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |
+| 1.2.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11466/4-linux-gcc/arsenalgear/1.2.2), 29&nbsp;profiles, 27&nbsp;builds, 27&nbsp;tests |  |  |  |  |
 
 
 # cimg [#11440](https://github.com/conan-io/conan-center-index/pull/11440)
