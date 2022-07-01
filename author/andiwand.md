@@ -11,12 +11,12 @@
 
 # pango [#11378](https://github.com/conan-io/conan-center-index/pull/11378)
 
-[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11378). last update on 2022-07-01 22:19:51
+[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11378). last update on 2022-07-01 22:56:12
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 1.48.9 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.48.9), 12&nbsp;profiles, 12&nbsp;tests |  |  |  |  |
 | 1.49.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.49.0), 10&nbsp;profiles, 10&nbsp;tests |  |  |  |  |
 | 1.49.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.49.1), 11&nbsp;profiles, 11&nbsp;tests |  |  |  |  |
-| 1.49.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.49.2), 9&nbsp;profiles, 9&nbsp;tests |  |  |  |  |
+| 1.49.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.49.2), 10&nbsp;profiles, 10&nbsp;tests |  |  |  |  |
 
