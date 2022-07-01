@@ -146,12 +146,7 @@ def process_pr(pr_number):
                 md += f" {i.get(config, '')} |"
             md += "\n"
         md += "\n"
-    
-    print(md)
-    with open(f"pages/{pr_number}.md", "w") as text_file:
-        text_file.write(md)
-    with open(f"pages/output.md", "a") as text_file:
-        text_file.write(md)
+    return md
 
 if __name__ == '__main__':
     command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index", "--limit", "200"]
@@ -159,4 +154,10 @@ if __name__ == '__main__':
     output = subprocess.check_output(command)
     prs = json.loads(output)
     for pr in prs:
-        process_pr(pr["number"])
+        md = process_pr(pr["number"])
+        
+        print(md)
+        with open(f"{pr['number']}.md", "w") as text_file:
+            text_file.write(md)
+        with open(f"output.md", "a") as text_file:
+            text_file.write(md)
