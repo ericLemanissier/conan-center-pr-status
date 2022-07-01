@@ -1,10 +1,10 @@
 
 # symengine [#11476](https://github.com/conan-io/conan-center-index/pull/11476)
 
-[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11476). last update on 2022-07-01 19:32:08
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11476). last update on 2022-07-01 19:47:11
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 0.8.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11476/2-linux-gcc/symengine/0.8.1/summary.json), 48&nbsp;profiles, 48&nbsp;builds, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11476/2-linux-clang/symengine/0.8.1/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11476/2-configs/macos-clang/symengine/0.8.1), 6&nbsp;profiles, 6&nbsp;builds, 6&nbsp;tests |  |
-| 0.9.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11476/2-linux-gcc/symengine/0.9.0/summary.json), 48&nbsp;profiles, 48&nbsp;builds, 48&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11476/2-linux-clang/symengine/0.9.0), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |
+| 0.9.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11476/2-linux-gcc/symengine/0.9.0/summary.json), 48&nbsp;profiles, 48&nbsp;builds, 48&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11476/2-linux-clang/symengine/0.9.0), 23&nbsp;profiles, 22&nbsp;builds, 22&nbsp;tests |  |  |  |
 
