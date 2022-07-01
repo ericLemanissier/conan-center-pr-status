@@ -1,12 +1,23 @@
-build of 11475 did not start yet
 
-# geotrans [#11330](https://github.com/conan-io/conan-center-index/pull/11330)
+# qt [#11475](https://github.com/conan-io/conan-center-index/pull/11475)
 
-[build 7](https://c3i.jfrog.io/c3i/misc/logs/pr/11330). last update on 2022-07-01 14:37:37
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11475). last update on 2022-07-01 14:45:50
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 3.8 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11330/7-linux-gcc/geotrans/3.8/summary.json), 48&nbsp;profiles, 48&nbsp;tests |  |  |  |  |
+| 6.0.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.0.4), 20&nbsp;profiles |  |  |  |  |
+| 6.1.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.1.3), 20&nbsp;profiles |  |  |  |  |
+| 6.2.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.2.4), 20&nbsp;profiles |  |  |  |  |
+| 6.3.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.3.0), 20&nbsp;profiles |  |  |  |  |
+
+
+# geotrans [#11330](https://github.com/conan-io/conan-center-index/pull/11330)
+
+[build 7](https://c3i.jfrog.io/c3i/misc/logs/pr/11330). last update on 2022-07-01 14:48:34
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 3.8 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11330/7-linux-gcc/geotrans/3.8/summary.json), 48&nbsp;profiles, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11330/7-linux-clang/geotrans/3.8/summary.json), 24&nbsp;profiles, 24&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11330/7-configs/macos-clang/geotrans/3.8), 3&nbsp;profiles |  |
 
 
 # hdf5 [#10983](https://github.com/conan-io/conan-center-index/pull/10983)
