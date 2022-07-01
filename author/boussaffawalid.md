@@ -13,9 +13,9 @@
 
 # karchive [#9751](https://github.com/conan-io/conan-center-index/pull/9751)
 
-[build 14](https://c3i.jfrog.io/c3i/misc/logs/pr/9751). last update on 2022-05-03 08:32:18
+[build 17](https://c3i.jfrog.io/c3i/misc/logs/pr/9751). last update on 2022-07-01 22:07:40
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 5.75.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/9751/14-linux-gcc/karchive/5.75.0/summary.json), 20&nbsp;profiles, 5&nbsp;builds, 4&nbsp;tests |  |  |  |  |
+| 5.75.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/9751/17-linux-gcc/karchive/5.75.0/summary.json), 2&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests |  |  |  |  |
 
