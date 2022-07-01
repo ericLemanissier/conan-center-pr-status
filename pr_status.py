@@ -8,6 +8,8 @@ import requests
 
 f_regex = re.compile("^(\d+)(-(.+))?$")
 
+session = requests.Session()
+
 def process_pr(pr_number):
     last_stamp = None
 
@@ -16,7 +18,8 @@ def process_pr(pr_number):
 
     def iterate_folder(path):
         nonlocal  last_stamp
-        r = requests.request("PROPFIND", path, headers={"Depth":"1"})
+        global session
+        r = session.request("PROPFIND", path, headers={"Depth":"1"})
         r.raise_for_status()
         root = ET.fromstring(r.text)
         base_path = None
