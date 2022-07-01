@@ -26,7 +26,7 @@ def process_pr(pr_number):
 
 
             class Entry:
-                is_dir: bool
+                is_dir: bool 
                 name: str
                 path: str
 
@@ -74,10 +74,6 @@ def process_pr(pr_number):
         if current_build_number == build_number:
             configs.append(config)
 
-    if not build_number:
-        print(f"build of {pr_number} did not start yet")
-        return
-
     status_dict = {}
     package_name = ""
     def process_config(path, config):
@@ -118,37 +114,44 @@ def process_pr(pr_number):
                     descr += f", {n_test}&nbsp;tests"
                 status_dict[version][config or "global"] = descr
 
-    for config in configs:
-        current_path = f"{root_url}/{build_number}" + (f"-{config}" if config else "")
-        if config == "configs":
-            for entry in iterate_folder(current_path):
-                if not entry.is_dir:
-                    continue
-                process_config(entry.path, entry.name)
-        else:
-            process_config(current_path, config)
-
-    print(f"\n# {package_name}\n")
-    print(f"[pr #{pr_number}](https://github.com/conan-io/conan-center-index/pull/{pr_number}) [build {build_number}]({root_url}). last update on ", end="")
-    print(last_stamp)
-    print("")
-    configs = ["global", "linux-gcc", "linux-clang", "windows-visual_studio", "macos-clang", "macos-m1-clang"]
-    print("| version |", end="")
-    for config in configs:
-        print(f" {config} |", end="")
-    print("")
-
-    print("| - |", end="")
-    for config in configs:
-        print(" - |", end="")
-    print("")
-
-    for version, i in status_dict.items():
-        print(f"| {version} |", end="")
+    if not build_number:
+        md = f"build of {pr_number} did not start yet\n"
+    else:
         for config in configs:
-            print(f" {i.get(config, '')} |", end="")
-        print("")
-    print("")
+            current_path = f"{root_url}/{build_number}" + (f"-{config}" if config else "")
+            if config == "configs":
+                for entry in iterate_folder(current_path):
+                    if not entry.is_dir:
+                        continue
+                    process_config(entry.path, entry.name)
+            else:
+                process_config(current_path, config)
+
+        md = f"\n# {package_name} [#{pr_number}](https://github.com/conan-io/conan-center-index/pull/{pr_number})\n\n"
+        md += f"[build {build_number}]({root_url}). last update on {last_stamp}\n"
+        configs = ["global", "linux-gcc", "linux-clang", "windows-visual_studio", "macos-clang", "macos-m1-clang"]
+        md += "\n| version |"
+        for config in configs:
+            md += f" {config} |"
+        md += "\n"
+
+        md += "| - |"
+        for config in configs:
+            md += " - |"
+        md += "\n"
+
+        for version, i in status_dict.items():
+            md += f"| {version} |"
+            for config in configs:
+                md += f" {i.get(config, '')} |"
+            md += "\n"
+        md += "\n"
+    
+    print(md)
+    with open(f"pages/{pr_number}.md", "w") as text_file:
+        text_file.write(md)
+    with open(f"pages/output.md", "a") as text_file:
+        text_file.write(md)
 
 if __name__ == '__main__':
     command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index", "--limit", "200"]
