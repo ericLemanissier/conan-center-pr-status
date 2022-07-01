@@ -22,24 +22,24 @@
 
 # hdf5 [#10983](https://github.com/conan-io/conan-center-index/pull/10983)
 
-[build 5](https://c3i.jfrog.io/c3i/misc/logs/pr/10983). last update on 2022-07-01 16:52:20
+[build 5](https://c3i.jfrog.io/c3i/misc/logs/pr/10983). last update on 2022-07-01 17:08:04
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.10.6 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.10.6), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
-| 1.12.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.12.0), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
-| 1.12.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.12.2), 14&nbsp;profiles, 14&nbsp;builds, 14&nbsp;tests |  |  |  |  |
-| 1.8.21 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.8.21), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
+| 1.10.6 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.10.6), 4&nbsp;profiles, 4&nbsp;tests |  |  |  |  |
+| 1.12.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.12.0), 4&nbsp;profiles, 4&nbsp;tests |  |  |  |  |
+| 1.12.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.12.2), 16&nbsp;profiles, 16&nbsp;builds, 16&nbsp;tests |  |  |  |  |
+| 1.8.21 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.8.21), 4&nbsp;profiles, 4&nbsp;tests |  |  |  |  |
 
 
 # cgns [#10855](https://github.com/conan-io/conan-center-index/pull/10855)
 
-[build 12](https://c3i.jfrog.io/c3i/misc/logs/pr/10855). last update on 2022-07-01 16:50:53
+[build 12](https://c3i.jfrog.io/c3i/misc/logs/pr/10855). last update on 2022-07-01 17:15:42
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 3.4.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10855/12-linux-gcc/cgns/3.4.1), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests |  |  |  |  |
-| 4.3.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10855/12-linux-gcc/cgns/4.3.0), 10&nbsp;profiles, 10&nbsp;builds, 10&nbsp;tests |  |  |  |  |
+| 3.4.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10855/12-linux-gcc/cgns/3.4.1), 18&nbsp;profiles, 18&nbsp;builds, 18&nbsp;tests |  |  |  |  |
+| 4.3.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10855/12-linux-gcc/cgns/4.3.0), 15&nbsp;profiles, 15&nbsp;builds, 15&nbsp;tests |  |  |  |  |
 
 
 # hdf5 [#10836](https://github.com/conan-io/conan-center-index/pull/10836)
