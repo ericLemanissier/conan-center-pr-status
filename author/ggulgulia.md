@@ -1,11 +1,11 @@
 
 # ignition-tools [#11309](https://github.com/conan-io/conan-center-index/pull/11309)
 
-[build 19](https://c3i.jfrog.io/c3i/misc/logs/pr/11309). last update on 2022-07-01 19:08:11
+[build 19](https://c3i.jfrog.io/c3i/misc/logs/pr/11309). last update on 2022-07-01 19:21:37
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.4.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11309/19-linux-gcc/ignition-tools/1.4.0), 21&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
+| 1.4.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11309/19-linux-gcc/ignition-tools/1.4.0), 29&nbsp;profiles, 29&nbsp;builds, 29&nbsp;tests |  |  |  |  |
 
 
 # ignition-plugin [#9824](https://github.com/conan-io/conan-center-index/pull/9824)
