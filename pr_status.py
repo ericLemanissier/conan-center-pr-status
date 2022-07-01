@@ -164,6 +164,7 @@ if __name__ == '__main__':
             text_file.write(md)
         with open(f"author/{pr['author']['login']}.md", "a") as text_file:
             text_file.write(md)
-        if all(label["name"] not in ["Failed",  "User-approval pending", "Unexpected Error"] for label in pr['labels']):
-            with open(f"in_progress.md", "a") as text_file:
-                text_file.write(md)
+        if  all(label["name"] not in ["Failed",  "User-approval pending", "Unexpected Error"] for label in pr['labels']) and \
+            all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state","") not in ["ERROR", "SUCCESS"] for check in pr["statusCheckRollup"]):
+                with open(f"in_progress.md", "a") as text_file:
+                    text_file.write(md)
