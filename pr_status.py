@@ -16,10 +16,10 @@ def process_pr(pr_number):
     root_url = f"https://c3i.jfrog.io/c3i/misc/logs/pr/{pr_number}"
 
 
-    def iterate_folder(path):
+    def iterate_folder(path, depth = 1):
         nonlocal  last_stamp
         global session
-        r = session.request("PROPFIND", path, headers={"Depth":"1"})
+        r = session.request("PROPFIND", path, headers={"Depth" : str(depth)})
         r.raise_for_status()
         root = ET.fromstring(r.text)
         base_path = None
@@ -47,15 +47,11 @@ def process_pr(pr_number):
             assert propstat_el.tag == "{DAV:}propstat"
 
             res.is_dir = False
-            creationdate = None
             props_el = propstat_el[0]
             assert props_el.tag == "{DAV:}prop"
             for prop in props_el:
                 if prop.tag == "{DAV:}resourcetype":
-                    for type in prop:
-                        if type.tag == "{DAV:}collection":
-                            res.is_dir = True
-                            break
+                    res.is_dir = any(type.tag == "{DAV:}collection" for type in prop)
                 if prop.tag == "{DAV:}creationdate":
                     creationdate= datetime.fromisoformat(prop.text[:-1])
                     if not last_stamp or creationdate > last_stamp:
@@ -82,23 +78,24 @@ def process_pr(pr_number):
     def process_config(path, config):
         nonlocal status_dict
         nonlocal package_name
-        for p in iterate_folder(path):
+        for p in iterate_folder(path, depth=2):
             if not p.is_dir:
                 continue
-            package_name = p.name
-            for v in iterate_folder(p.path):
-                if not v.is_dir:
+            v = p.name.split("/")
+            if len(v) < 2:
                     continue
-                version = v.name
+            else:
+                package_name = v[0]
+                version = v[1]
                 if version not in status_dict:
                     status_dict[version] = {}
 
-                status = f"[in progress]({v.path})"
+            status = f"[in progress]({p.path})"
                 n_profile = 0
                 n_build = 0
                 n_test = 0
 
-                for f in iterate_folder(v.path):
+            for f in iterate_folder(p.path):
                     if f.name.endswith("-profile.txt"):
                         n_profile += 1
                     if f.name.endswith("-build.txt"):
