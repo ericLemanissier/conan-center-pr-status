@@ -1,14 +1,14 @@
 
 # gtest [#11467](https://github.com/conan-io/conan-center-index/pull/11467)
 
-[build 5](https://c3i.jfrog.io/c3i/misc/logs/pr/11467). last update on 2022-07-01 15:33:02
+[build 5](https://c3i.jfrog.io/c3i/misc/logs/pr/11467). last update on 2022-07-01 15:52:27
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.10.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/5-linux-gcc/gtest/1.10.0), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
-| 1.11.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/5-linux-gcc/gtest/1.11.0), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
-| 1.12.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/5-linux-gcc/gtest/1.12.1), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
-| cci.20210126 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/5-linux-gcc/gtest/cci.20210126), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
+| 1.10.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/5-linux-gcc/gtest/1.10.0), 4&nbsp;profiles, 4&nbsp;tests |  |  |  |  |
+| 1.11.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/5-linux-gcc/gtest/1.11.0), 4&nbsp;profiles, 4&nbsp;tests |  |  |  |  |
+| 1.12.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/5-linux-gcc/gtest/1.12.1), 4&nbsp;profiles, 4&nbsp;tests |  |  |  |  |
+| cci.20210126 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11467/5-linux-gcc/gtest/cci.20210126), 9&nbsp;profiles, 9&nbsp;tests |  |  |  |  |
 
 
 # arsenalgear [#11466](https://github.com/conan-io/conan-center-index/pull/11466)
@@ -46,12 +46,12 @@
 
 # mongo-c-driver [#11311](https://github.com/conan-io/conan-center-index/pull/11311)
 
-[build 13](https://c3i.jfrog.io/c3i/misc/logs/pr/11311). last update on 2022-07-01 00:44:04
+[build 14](https://c3i.jfrog.io/c3i/misc/logs/pr/11311). last update on 2022-07-01 15:55:39
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.17.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-linux-gcc/mongo-c-driver/1.17.2/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-linux-clang/mongo-c-driver/1.17.2/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-configs/macos-clang/mongo-c-driver/1.17.2), 8&nbsp;profiles, 8&nbsp;tests |  |
-| 1.17.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-linux-gcc/mongo-c-driver/1.17.3/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-linux-clang/mongo-c-driver/1.17.3/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-configs/macos-clang/mongo-c-driver/1.17.3), 8&nbsp;profiles, 8&nbsp;tests |  |
-| 1.17.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-linux-gcc/mongo-c-driver/1.17.4/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-linux-clang/mongo-c-driver/1.17.4/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-configs/macos-clang/mongo-c-driver/1.17.4), 8&nbsp;profiles, 8&nbsp;tests |  |
-| 1.17.6 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-linux-gcc/mongo-c-driver/1.17.6/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-linux-clang/mongo-c-driver/1.17.6/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/13-configs/macos-clang/mongo-c-driver/1.17.6), 8&nbsp;profiles, 8&nbsp;tests |  |
+| 1.17.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.17.2), 3&nbsp;profiles, 3&nbsp;tests |  |  |  |  |
+| 1.17.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.17.3), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
+| 1.17.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.17.4), 4&nbsp;profiles, 4&nbsp;tests |  |  |  |  |
+| 1.22.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.22.0), 8&nbsp;profiles, 7&nbsp;builds, 7&nbsp;tests |  |  |  |  |
 
