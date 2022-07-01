@@ -2,11 +2,11 @@ build of 11475 did not start yet
 
 # geotrans [#11330](https://github.com/conan-io/conan-center-index/pull/11330)
 
-[build 7](https://c3i.jfrog.io/c3i/misc/logs/pr/11330). last update on 2022-07-01 14:28:01
+[build 7](https://c3i.jfrog.io/c3i/misc/logs/pr/11330). last update on 2022-07-01 14:37:37
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 3.8 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11330/7-linux-gcc/geotrans/3.8), 5&nbsp;profiles, 5&nbsp;tests |  |  |  |  |
+| 3.8 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11330/7-linux-gcc/geotrans/3.8/summary.json), 48&nbsp;profiles, 48&nbsp;tests |  |  |  |  |
 
 
 # hdf5 [#10983](https://github.com/conan-io/conan-center-index/pull/10983)

@@ -1,9 +1,9 @@
 
 # opensubdiv [#11450](https://github.com/conan-io/conan-center-index/pull/11450)
 
-[build 6](https://c3i.jfrog.io/c3i/misc/logs/pr/11450). last update on 2022-07-01 13:18:53
+[build 7](https://c3i.jfrog.io/c3i/misc/logs/pr/11450). last update on 2022-07-01 14:38:02
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 3.4.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11450/6-linux-gcc/opensubdiv/3.4.4/summary.json), 48&nbsp;profiles, 48&nbsp;builds, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11450/6-linux-clang/opensubdiv/3.4.4/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11450/6-configs/macos-clang/opensubdiv/3.4.4/summary.json), 6&nbsp;profiles, 6&nbsp;builds, 6&nbsp;tests |  |
+| 3.4.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11450/7-linux-gcc/opensubdiv/3.4.4), 9&nbsp;profiles, 9&nbsp;tests |  |  |  |  |
 
