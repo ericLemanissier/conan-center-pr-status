@@ -1,0 +1,23 @@
+
+# openssl [#11439](https://github.com/conan-io/conan-center-index/pull/11439)
+
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11439). last update on 2022-07-01 09:27:20
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 1.1.1j |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-linux-gcc/openssl/1.1.1j/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-linux-clang/openssl/1.1.1j/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-configs/macos-clang/openssl/1.1.1j/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests |  |
+| 1.1.1m |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-linux-gcc/openssl/1.1.1m/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-linux-clang/openssl/1.1.1m/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-configs/macos-clang/openssl/1.1.1m/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-configs/macos-m1-clang/openssl/1.1.1m/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |
+| 1.1.1n |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-linux-gcc/openssl/1.1.1n/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-linux-clang/openssl/1.1.1n/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-configs/macos-clang/openssl/1.1.1n/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-configs/macos-m1-clang/openssl/1.1.1n/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |
+| 1.1.1o |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-linux-gcc/openssl/1.1.1o/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-linux-clang/openssl/1.1.1o/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-configs/windows-visual_studio/openssl/1.1.1o), 10&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-configs/macos-clang/openssl/1.1.1o/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11439/2-configs/macos-m1-clang/openssl/1.1.1o/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |
+
+
+# dcmtk [#11266](https://github.com/conan-io/conan-center-index/pull/11266)
+
+[build 9](https://c3i.jfrog.io/c3i/misc/logs/pr/11266). last update on 2022-06-30 06:38:04
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 3.6.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11266/9-linux-gcc/dcmtk/3.6.5/summary.json), 3&nbsp;profiles, 3&nbsp;tests |  |  |  |  |
+| 3.6.6 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11266/9-linux-gcc/dcmtk/3.6.6/summary.json), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
+| 3.6.7 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11266/9-linux-gcc/dcmtk/3.6.7/summary.json) |  |  |  |  |
+

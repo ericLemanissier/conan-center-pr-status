@@ -1,0 +1,9 @@
+
+# libjpeg [#11071](https://github.com/conan-io/conan-center-index/pull/11071)
+
+[build 4](https://c3i.jfrog.io/c3i/misc/logs/pr/11071). last update on 2022-06-30 06:46:11
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 9c |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11071/4-linux-gcc/libjpeg/9c/summary.json) |  |  |  |  |
+
