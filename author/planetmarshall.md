@@ -23,11 +23,11 @@
 
 # gtk [#11399](https://github.com/conan-io/conan-center-index/pull/11399)
 
-[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11399). last update on 2022-07-01 22:38:56
+[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11399). last update on 2022-07-01 22:39:53
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 4.3.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.3.2), 1&nbsp;profiles |  |  |  |  |
+| 4.3.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.3.2), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
 | 4.4.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.4.0), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
 | 4.6.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.6.2), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
 | 4.7.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.7.0), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
