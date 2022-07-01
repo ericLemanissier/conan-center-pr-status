@@ -1,14 +1,14 @@
 
 # qt [#11475](https://github.com/conan-io/conan-center-index/pull/11475)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11475). last update on 2022-07-01 15:58:10
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11475). last update on 2022-07-01 16:34:05
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 6.0.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.0.4), 24&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
-| 6.1.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.1.3), 24&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
-| 6.2.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.2.4), 24&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
-| 6.3.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.3.0), 24&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
+| 6.0.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.0.4/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  |  |  |  |
+| 6.1.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.1.3/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  |  |  |  |
+| 6.2.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.2.4/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  |  |  |  |
+| 6.3.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.3.0/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  |  |  |  |
 
 
 # geotrans [#11330](https://github.com/conan-io/conan-center-index/pull/11330)
@@ -22,33 +22,36 @@
 
 # hdf5 [#10983](https://github.com/conan-io/conan-center-index/pull/10983)
 
-[build 4](https://c3i.jfrog.io/c3i/misc/logs/pr/10983). last update on 2022-06-30 06:45:01
+[build 5](https://c3i.jfrog.io/c3i/misc/logs/pr/10983). last update on 2022-07-01 16:52:20
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.10.6 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10983/4-linux-gcc/hdf5/1.10.6/summary.json), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
+| 1.10.6 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.10.6), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
+| 1.12.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.12.0), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
+| 1.12.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.12.2), 14&nbsp;profiles, 14&nbsp;builds, 14&nbsp;tests |  |  |  |  |
+| 1.8.21 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.8.21), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
 
 
 # cgns [#10855](https://github.com/conan-io/conan-center-index/pull/10855)
 
-[build 11](https://c3i.jfrog.io/c3i/misc/logs/pr/10855). last update on 2022-06-30 06:47:30
+[build 12](https://c3i.jfrog.io/c3i/misc/logs/pr/10855). last update on 2022-07-01 16:50:53
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 3.4.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10855/11-linux-gcc/cgns/3.4.1/summary.json), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
-| 4.3.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10855/11-linux-gcc/cgns/4.3.0/summary.json) |  |  |  |  |
+| 3.4.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10855/12-linux-gcc/cgns/3.4.1), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests |  |  |  |  |
+| 4.3.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10855/12-linux-gcc/cgns/4.3.0), 10&nbsp;profiles, 10&nbsp;builds, 10&nbsp;tests |  |  |  |  |
 
 
 # hdf5 [#10836](https://github.com/conan-io/conan-center-index/pull/10836)
 
-[build 35](https://c3i.jfrog.io/c3i/misc/logs/pr/10836). last update on 2022-06-01 11:53:49
+[build 37](https://c3i.jfrog.io/c3i/misc/logs/pr/10836). last update on 2022-07-01 16:44:18
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.10.6 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35/hdf5/1.10.6/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-linux-gcc/hdf5/1.10.6/summary.json), 48&nbsp;profiles, 48&nbsp;builds, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-linux-clang/hdf5/1.10.6/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/windows-visual_studio/hdf5/1.10.6/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/macos-clang/hdf5/1.10.6/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/macos-m1-clang/hdf5/1.10.6/summary.json) |
-| 1.12.0 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35/hdf5/1.12.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-linux-gcc/hdf5/1.12.0/summary.json), 48&nbsp;profiles, 8&nbsp;builds, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-linux-clang/hdf5/1.12.0/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/windows-visual_studio/hdf5/1.12.0/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/macos-clang/hdf5/1.12.0/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/macos-m1-clang/hdf5/1.12.0/summary.json) |
-| 1.12.1 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35/hdf5/1.12.1/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-linux-gcc/hdf5/1.12.1/summary.json), 48&nbsp;profiles, 8&nbsp;builds, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-linux-clang/hdf5/1.12.1/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/windows-visual_studio/hdf5/1.12.1/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/macos-clang/hdf5/1.12.1/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/macos-m1-clang/hdf5/1.12.1/summary.json) |
-| 1.8.21 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35/hdf5/1.8.21/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-linux-gcc/hdf5/1.8.21/summary.json), 48&nbsp;profiles, 8&nbsp;builds, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-linux-clang/hdf5/1.8.21/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/windows-visual_studio/hdf5/1.8.21/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/macos-clang/hdf5/1.8.21/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/35-configs/macos-m1-clang/hdf5/1.8.21/summary.json) |
+| 1.12.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/37-linux-gcc/hdf5/1.12.0/summary.json) |  |  |  |  |
+| 1.12.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/37-linux-gcc/hdf5/1.12.1/summary.json) |  |  |  |  |
+| 1.12.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/37-linux-gcc/hdf5/1.12.2/summary.json), 2&nbsp;profiles, 1&nbsp;builds |  |  |  |  |
+| 1.8.21 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10836/37-linux-gcc/hdf5/1.8.21/summary.json) |  |  |  |  |
 
 
 # vtk [#10776](https://github.com/conan-io/conan-center-index/pull/10776)
