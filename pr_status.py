@@ -2,7 +2,7 @@ import re
 from datetime import datetime
 import subprocess
 import json
-import sys
+import os
 import xml.etree.ElementTree as ET
 import requests
 
@@ -149,15 +149,21 @@ def process_pr(pr_number):
     return md
 
 if __name__ == '__main__':
-    command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index", "--limit", "200"]
-    command.extend(sys.argv[1:])
+    command = ["gh", "pr", "list", "--json", "number,author,labels,statusCheckRollup", "--repo", "conan-io/conan-center-index", "--limit", "200"]
     output = subprocess.check_output(command)
     prs = json.loads(output)
+    os.mkdir("pr")
+    os.mkdir("author")
     for pr in prs:
         md = process_pr(pr["number"])
         
         print(md)
-        with open(f"{pr['number']}.md", "w") as text_file:
+        with open(f"pr/{pr['number']}.md", "w") as text_file:
             text_file.write(md)
-        with open(f"output.md", "a") as text_file:
+        with open(f"index.md", "a") as text_file:
             text_file.write(md)
+        with open(f"author/{pr['author']['login']}.md", "a") as text_file:
+            text_file.write(md)
+        if all(label["name"] not in ["Failed",  "User-approval pending", "Unexpected Error"] for label in pr['labels']):
+            with open(f"in_progress.md", "a") as text_file:
+                text_file.write(md)
