@@ -1,14 +1,14 @@
 
 # qt [#11475](https://github.com/conan-io/conan-center-index/pull/11475)
 
-[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11475). last update on 2022-07-01 17:39:14
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11475). last update on 2022-07-01 17:48:33
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 6.0.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.0.4), 3&nbsp;profiles, 3&nbsp;tests |  |  |  |  |
-| 6.1.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.1.3), 3&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
-| 6.2.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.2.4), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
-| 6.3.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.3.0), 2&nbsp;profiles |  |  |  |  |
+| 6.1.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.1.3), 3&nbsp;profiles, 3&nbsp;tests |  |  |  |  |
+| 6.2.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.2.4), 4&nbsp;profiles, 4&nbsp;tests |  |  |  |  |
+| 6.3.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.3.0), 3&nbsp;profiles, 3&nbsp;tests |  |  |  |  |
 
 
 # geotrans [#11330](https://github.com/conan-io/conan-center-index/pull/11330)
@@ -22,24 +22,24 @@
 
 # hdf5 [#10983](https://github.com/conan-io/conan-center-index/pull/10983)
 
-[build 5](https://c3i.jfrog.io/c3i/misc/logs/pr/10983). last update on 2022-07-01 17:40:00
+[build 5](https://c3i.jfrog.io/c3i/misc/logs/pr/10983). last update on 2022-07-01 17:48:55
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.10.6 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.10.6), 5&nbsp;profiles, 4&nbsp;tests |  |  |  |  |
-| 1.12.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.12.0), 7&nbsp;profiles, 7&nbsp;tests |  |  |  |  |
-| 1.12.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.12.2), 18&nbsp;profiles, 18&nbsp;builds, 18&nbsp;tests |  |  |  |  |
-| 1.8.21 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.8.21), 6&nbsp;profiles, 6&nbsp;tests |  |  |  |  |
+| 1.10.6 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.10.6), 9&nbsp;profiles, 9&nbsp;tests |  |  |  |  |
+| 1.12.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.12.0), 9&nbsp;profiles, 9&nbsp;tests |  |  |  |  |
+| 1.12.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.12.2), 25&nbsp;profiles, 25&nbsp;builds, 25&nbsp;tests |  |  |  |  |
+| 1.8.21 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10983/5-linux-gcc/hdf5/1.8.21), 9&nbsp;profiles, 9&nbsp;tests |  |  |  |  |
 
 
 # cgns [#10855](https://github.com/conan-io/conan-center-index/pull/10855)
 
-[build 12](https://c3i.jfrog.io/c3i/misc/logs/pr/10855). last update on 2022-07-01 17:37:36
+[build 12](https://c3i.jfrog.io/c3i/misc/logs/pr/10855). last update on 2022-07-01 17:47:51
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 3.4.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10855/12-linux-gcc/cgns/3.4.1), 19&nbsp;profiles, 19&nbsp;builds, 19&nbsp;tests |  |  |  |  |
-| 4.3.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10855/12-linux-gcc/cgns/4.3.0), 18&nbsp;profiles, 18&nbsp;builds, 18&nbsp;tests |  |  |  |  |
+| 4.3.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10855/12-linux-gcc/cgns/4.3.0), 19&nbsp;profiles, 19&nbsp;builds, 19&nbsp;tests |  |  |  |  |
 
 
 # hdf5 [#10836](https://github.com/conan-io/conan-center-index/pull/10836)
