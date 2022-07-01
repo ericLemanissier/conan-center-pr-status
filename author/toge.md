@@ -37,7 +37,7 @@
 
 # sqlite3 [#11383](https://github.com/conan-io/conan-center-index/pull/11383)
 
-[build 9](https://c3i.jfrog.io/c3i/misc/logs/pr/11383). last update on 2022-07-01 21:54:59
+[build 9](https://c3i.jfrog.io/c3i/misc/logs/pr/11383). last update on 2022-07-01 22:27:02
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
@@ -48,16 +48,17 @@
 | 3.36.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.36.0), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
 | 3.38.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.38.3), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
 | 3.38.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.38.4), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
+| 3.39.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.39.0), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
 
 
 # mongo-c-driver [#11311](https://github.com/conan-io/conan-center-index/pull/11311)
 
-[build 14](https://c3i.jfrog.io/c3i/misc/logs/pr/11311). last update on 2022-07-01 19:28:00
+[build 14](https://c3i.jfrog.io/c3i/misc/logs/pr/11311). last update on 2022-07-01 22:28:21
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 1.17.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.17.2/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-clang/mongo-c-driver/1.17.2/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-clang/mongo-c-driver/1.17.2), 3&nbsp;profiles, 3&nbsp;tests |  |
 | 1.17.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.17.3/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-clang/mongo-c-driver/1.17.3/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-clang/mongo-c-driver/1.17.3), 3&nbsp;profiles, 3&nbsp;tests |  |
 | 1.17.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.17.4/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-clang/mongo-c-driver/1.17.4/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-clang/mongo-c-driver/1.17.4), 3&nbsp;profiles, 3&nbsp;tests |  |
-| 1.22.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.22.0/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-clang/mongo-c-driver/1.22.0/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-clang/mongo-c-driver/1.22.0), 6&nbsp;profiles, 6&nbsp;builds, 6&nbsp;tests |  |
+| 1.22.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.22.0/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-clang/mongo-c-driver/1.22.0/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-clang/mongo-c-driver/1.22.0), 8&nbsp;profiles, 6&nbsp;builds, 6&nbsp;tests |  |
 
