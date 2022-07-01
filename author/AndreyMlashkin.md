@@ -12,14 +12,14 @@
 
 # sentry-native [#11154](https://github.com/conan-io/conan-center-index/pull/11154)
 
-[build 4](https://c3i.jfrog.io/c3i/misc/logs/pr/11154). last update on 2022-07-01 17:46:24
+[build 4](https://c3i.jfrog.io/c3i/misc/logs/pr/11154). last update on 2022-07-01 18:12:55
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 0.4.13 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.13), 9&nbsp;profiles, 9&nbsp;tests |  |  |  |  |
-| 0.4.15 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.15), 4&nbsp;profiles, 4&nbsp;tests |  |  |  |  |
-| 0.4.17 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.17), 4&nbsp;profiles, 4&nbsp;tests |  |  |  |  |
-| 0.4.18 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.18), 17&nbsp;profiles, 17&nbsp;builds, 17&nbsp;tests |  |  |  |  |
+| 0.4.13 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.13), 10&nbsp;profiles, 10&nbsp;tests |  |  |  |  |
+| 0.4.15 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.15), 12&nbsp;profiles, 12&nbsp;tests |  |  |  |  |
+| 0.4.17 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.17), 11&nbsp;profiles, 11&nbsp;tests |  |  |  |  |
+| 0.4.18 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.18), 35&nbsp;profiles, 35&nbsp;builds, 35&nbsp;tests |  |  |  |  |
 
 
 # glib [#10029](https://github.com/conan-io/conan-center-index/pull/10029)
