@@ -1,12 +1,23 @@
-build of 11467 did not start yet
 
-# arsenalgear [#11466](https://github.com/conan-io/conan-center-index/pull/11466)
+# gtest [#11467](https://github.com/conan-io/conan-center-index/pull/11467)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11466). last update on 2022-07-01 09:38:48
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11467). last update on 2022-07-01 09:59:28
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.2.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11466/1-linux-gcc/arsenalgear/1.2.2/summary.json), 20&nbsp;profiles, 3&nbsp;builds |  |  |  |  |
+| 1.10.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11467/1-linux-gcc/gtest/1.10.0/summary.json), 9&nbsp;profiles, 3&nbsp;builds, 3&nbsp;tests |  |  |  |  |
+| 1.11.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11467/1-linux-gcc/gtest/1.11.0/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests |  |  |  |  |
+| 1.12.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11467/1-linux-gcc/gtest/1.12.1/summary.json) |  |  |  |  |
+| cci.20210126 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11467/1-linux-gcc/gtest/cci.20210126/summary.json), 1&nbsp;profiles, 1&nbsp;builds |  |  |  |  |
+
+
+# arsenalgear [#11466](https://github.com/conan-io/conan-center-index/pull/11466)
+
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11466). last update on 2022-07-01 10:13:07
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 1.2.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11466/2-linux-gcc/arsenalgear/1.2.2/summary.json), 32&nbsp;profiles, 32&nbsp;builds, 32&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11466/2-linux-clang/arsenalgear/1.2.2/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  |  |  |
 
 
 # daw_json_link [#11442](https://github.com/conan-io/conan-center-index/pull/11442)
