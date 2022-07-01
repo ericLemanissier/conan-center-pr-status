@@ -84,35 +84,34 @@ def process_pr(pr_number):
             v = p.name.split("/")
             if len(v) < 2:
                     continue
-            else:
-                package_name = v[0]
-                version = v[1]
-                if version not in status_dict:
-                    status_dict[version] = {}
+            package_name = v[0]
+            version = v[1]
+            if version not in status_dict:
+                status_dict[version] = {}
 
             status = f"[in progress]({p.path})"
-                n_profile = 0
-                n_build = 0
-                n_test = 0
+            n_profile = 0
+            n_build = 0
+            n_test = 0
 
             for f in iterate_folder(p.path):
-                    if f.name.endswith("-profile.txt"):
-                        n_profile += 1
-                    if f.name.endswith("-build.txt"):
-                        n_build += 1
-                    if f.name.endswith("-test.txt"):
-                        n_test += 1
-                    if f.name == "summary.json":
-                        status = f"[finished](https://c3i.jfrog.io/c3i/misc/summary.html?json={f.path})"
+                if f.name.endswith("-profile.txt"):
+                    n_profile += 1
+                if f.name.endswith("-build.txt"):
+                    n_build += 1
+                if f.name.endswith("-test.txt"):
+                    n_test += 1
+                if f.name == "summary.json":
+                    status = f"[finished](https://c3i.jfrog.io/c3i/misc/summary.html?json={f.path})"
 
-                descr = f"{status}"
-                if n_profile:
-                    descr += f", {n_profile}&nbsp;profiles"
-                if n_build:
-                    descr += f", {n_build}&nbsp;builds"
-                if n_test:
-                    descr += f", {n_test}&nbsp;tests"
-                status_dict[version][config or "global"] = descr
+            descr = f"{status}"
+            if n_profile:
+                descr += f", {n_profile}&nbsp;profiles"
+            if n_build:
+                descr += f", {n_build}&nbsp;builds"
+            if n_test:
+                descr += f", {n_test}&nbsp;tests"
+            status_dict[version][config or "global"] = descr
 
     if not build_number:
         md = f"build of {pr_number} did not start yet\n"
