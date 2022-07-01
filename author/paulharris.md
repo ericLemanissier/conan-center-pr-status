@@ -1,14 +1,14 @@
 
 # qt [#11475](https://github.com/conan-io/conan-center-index/pull/11475)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11475). last update on 2022-07-01 15:54:52
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11475). last update on 2022-07-01 15:58:10
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 6.0.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.0.4), 24&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
 | 6.1.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.1.3), 24&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
 | 6.2.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.2.4), 24&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
-| 6.3.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.3.0), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
+| 6.3.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/1-linux-gcc/qt/6.3.0), 24&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
 
 
 # geotrans [#11330](https://github.com/conan-io/conan-center-index/pull/11330)
