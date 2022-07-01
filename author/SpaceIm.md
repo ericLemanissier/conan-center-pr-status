@@ -50,15 +50,6 @@
 | 4.1.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10479/7-linux-gcc/openmpi/4.1.0/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10479/7-linux-clang/openmpi/4.1.0/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10479/7-configs/macos-clang/openmpi/4.1.0/summary.json), 9&nbsp;profiles, 8&nbsp;tests |  |
 
 
-# sophus [#9178](https://github.com/conan-io/conan-center-index/pull/9178)
-
-[build 5](https://c3i.jfrog.io/c3i/misc/logs/pr/9178). last update on 2022-04-23 08:59:01
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 1.0.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/9178/5-linux-gcc/sophus/1.0.0/summary.json), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
-
-
 # libtorch [#5100](https://github.com/conan-io/conan-center-index/pull/5100)
 
 [build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/5100). last update on 2022-02-21 09:16:30
