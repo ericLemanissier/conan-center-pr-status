@@ -1,4 +1,13 @@
-build of 11466 did not start yet
+build of 11467 did not start yet
+
+# arsenalgear [#11466](https://github.com/conan-io/conan-center-index/pull/11466)
+
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11466). last update on 2022-07-01 09:38:48
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 1.2.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11466/1-linux-gcc/arsenalgear/1.2.2/summary.json), 20&nbsp;profiles, 3&nbsp;builds |  |  |  |  |
+
 
 # daw_json_link [#11442](https://github.com/conan-io/conan-center-index/pull/11442)
 
