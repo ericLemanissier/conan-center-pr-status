@@ -1,14 +1,4 @@
 
-# cairomm [#11470](https://github.com/conan-io/conan-center-index/pull/11470)
-
-[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11470). last update on 2022-07-01 11:44:22
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 1.14.3 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2/cairomm/1.14.3/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2-linux-gcc/cairomm/1.14.3/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2-linux-clang/cairomm/1.14.3/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2-configs/windows-visual_studio/cairomm/1.14.3/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2-configs/macos-clang/cairomm/1.14.3/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2-configs/macos-m1-clang/cairomm/1.14.3/summary.json) |
-| 1.16.1 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2/cairomm/1.16.1/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2-linux-gcc/cairomm/1.16.1/summary.json), 32&nbsp;profiles, 32&nbsp;builds, 32&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2-linux-clang/cairomm/1.16.1/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2-configs/windows-visual_studio/cairomm/1.16.1/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2-configs/macos-clang/cairomm/1.16.1/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11470/2-configs/macos-m1-clang/cairomm/1.16.1/summary.json) |
-
-
 # gtk [#11308](https://github.com/conan-io/conan-center-index/pull/11308)
 
 [build 25](https://c3i.jfrog.io/c3i/misc/logs/pr/11308). last update on 2022-07-01 16:51:57

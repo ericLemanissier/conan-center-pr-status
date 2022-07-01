@@ -12,14 +12,14 @@
 
 # sentry-native [#11154](https://github.com/conan-io/conan-center-index/pull/11154)
 
-[build 4](https://c3i.jfrog.io/c3i/misc/logs/pr/11154). last update on 2022-07-01 20:30:43
+[build 4](https://c3i.jfrog.io/c3i/misc/logs/pr/11154). last update on 2022-07-01 20:48:46
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 0.4.18 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.18/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-clang/sentry-native/0.4.18/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-configs/macos-clang/sentry-native/0.4.18), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |
 | 0.4.13 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.13/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-clang/sentry-native/0.4.13/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  |  |  |
-| 0.4.15 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.15/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-clang/sentry-native/0.4.15), 5&nbsp;profiles, 5&nbsp;tests |  |  |  |
-| 0.4.17 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.17/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-clang/sentry-native/0.4.17), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |
+| 0.4.15 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.15/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-clang/sentry-native/0.4.15/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  |  |  |
+| 0.4.17 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-gcc/sentry-native/0.4.17/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11154/4-linux-clang/sentry-native/0.4.17/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  |  |  |
 
 
 # glib [#10029](https://github.com/conan-io/conan-center-index/pull/10029)
