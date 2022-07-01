@@ -24,14 +24,14 @@ build of 11477 did not start yet
 
 # qt [#11475](https://github.com/conan-io/conan-center-index/pull/11475)
 
-[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11475). last update on 2022-07-01 23:26:25
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11475). last update on 2022-07-01 23:29:34
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 6.0.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.0.4/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-clang/qt/6.0.4/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-clang/qt/6.0.4), 4&nbsp;profiles |  |
 | 6.1.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.1.3/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-clang/qt/6.1.3/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-clang/qt/6.1.3), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |
 | 6.2.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.2.4/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-clang/qt/6.2.4/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-clang/qt/6.2.4), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |
-| 6.3.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.3.0/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-clang/qt/6.3.0/summary.json), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-clang/qt/6.3.0), 3&nbsp;profiles |  |
+| 6.3.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.3.0/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-clang/qt/6.3.0/summary.json), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-clang/qt/6.3.0), 4&nbsp;profiles |  |
 
 build of 11468 did not start yet
 
@@ -466,14 +466,14 @@ build of 11150 did not start yet
 
 # ffmpeg [#11086](https://github.com/conan-io/conan-center-index/pull/11086)
 
-[build 6](https://c3i.jfrog.io/c3i/misc/logs/pr/11086). last update on 2022-07-01 23:27:26
+[build 6](https://c3i.jfrog.io/c3i/misc/logs/pr/11086). last update on 2022-07-01 23:36:36
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 5.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11086/6-linux-gcc/ffmpeg/5.0/summary.json), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11086/6-linux-clang/ffmpeg/5.0/summary.json), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |  |  |
 | 4.2.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11086/6-linux-gcc/ffmpeg/4.2.1), 18&nbsp;profiles, 18&nbsp;builds, 18&nbsp;tests |  |  |  |  |
 | 4.3.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11086/6-linux-gcc/ffmpeg/4.3.2), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests |  |  |  |  |
-| 4.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11086/6-linux-gcc/ffmpeg/4.4), 15&nbsp;profiles, 15&nbsp;builds, 15&nbsp;tests |  |  |  |  |
+| 4.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11086/6-linux-gcc/ffmpeg/4.4), 18&nbsp;profiles, 17&nbsp;builds, 17&nbsp;tests |  |  |  |  |
 
 
 # cpython [#11078](https://github.com/conan-io/conan-center-index/pull/11078)
@@ -650,14 +650,14 @@ build of 10804 did not start yet
 
 # ixwebsocket [#10784](https://github.com/conan-io/conan-center-index/pull/10784)
 
-[build 14](https://c3i.jfrog.io/c3i/misc/logs/pr/10784). last update on 2022-07-01 23:26:44
+[build 14](https://c3i.jfrog.io/c3i/misc/logs/pr/10784). last update on 2022-07-01 23:38:12
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 10.4.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-linux-gcc/ixwebsocket/10.4.0/summary.json), 48&nbsp;profiles, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-linux-clang/ixwebsocket/10.4.0/summary.json), 24&nbsp;profiles, 24&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-configs/macos-clang/ixwebsocket/10.4.0), 1&nbsp;profiles, 1&nbsp;tests |  |
 | 11.4.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-linux-gcc/ixwebsocket/11.4.3/summary.json), 48&nbsp;profiles, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-linux-clang/ixwebsocket/11.4.3/summary.json), 24&nbsp;profiles, 24&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-configs/macos-clang/ixwebsocket/11.4.3), 1&nbsp;profiles, 1&nbsp;tests |  |
 | 7.9.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-linux-gcc/ixwebsocket/7.9.2/summary.json), 48&nbsp;profiles, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-linux-clang/ixwebsocket/7.9.2/summary.json), 24&nbsp;profiles, 24&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-configs/macos-clang/ixwebsocket/7.9.2), 1&nbsp;profiles, 1&nbsp;tests |  |
-| 10.2.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-linux-gcc/ixwebsocket/10.2.5/summary.json), 48&nbsp;profiles, 48&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-linux-clang/ixwebsocket/10.2.5), 16&nbsp;profiles, 16&nbsp;tests |  |  |  |
+| 10.2.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-linux-gcc/ixwebsocket/10.2.5/summary.json), 48&nbsp;profiles, 48&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/10784/14-linux-clang/ixwebsocket/10.2.5), 18&nbsp;profiles, 18&nbsp;tests |  |  |  |
 
 
 # vtk [#10776](https://github.com/conan-io/conan-center-index/pull/10776)
