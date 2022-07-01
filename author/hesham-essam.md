@@ -1,4 +1,14 @@
-build of 11469 did not start yet
+build of 11470 did not start yet
+
+# glibmm [#11469](https://github.com/conan-io/conan-center-index/pull/11469)
+
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11469). last update on 2022-07-01 10:37:58
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 2.66.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11469/1-linux-gcc/glibmm/2.66.4/summary.json), 29&nbsp;profiles, 29&nbsp;builds, 29&nbsp;tests |  |  |  |  |
+| 2.72.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11469/1-linux-gcc/glibmm/2.72.1/summary.json), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
+
 
 # gtk [#11308](https://github.com/conan-io/conan-center-index/pull/11308)
 
