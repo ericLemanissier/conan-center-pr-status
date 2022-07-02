@@ -1,11 +1,11 @@
 
 # openscenegraph [#11486](https://github.com/conan-io/conan-center-index/pull/11486)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11486). last update on 2022-07-02 09:05:46
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11486). last update on 2022-07-02 09:17:49
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 3.6.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11486/1-linux-gcc/openscenegraph/3.6.5), 20&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |  |  |  |
+| 3.6.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11486/1-linux-gcc/openscenegraph/3.6.5), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
 
 build of 11483 did not start yet
 
