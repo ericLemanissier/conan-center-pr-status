@@ -1,4 +1,14 @@
 
+# dcmtk [#11481](https://github.com/conan-io/conan-center-index/pull/11481)
+
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11481). last update on 2022-07-02 04:06:59
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 3.6.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11481/1-linux-gcc/dcmtk/3.6.5), 20&nbsp;profiles, 10&nbsp;builds, 9&nbsp;tests |  |  |  |  |
+| 3.6.6 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11481/1-linux-gcc/dcmtk/3.6.6), 11&nbsp;profiles |  |  |  |  |
+
+
 # libcurl [#11478](https://github.com/conan-io/conan-center-index/pull/11478)
 
 [build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11478). last update on 2022-07-01 21:29:57
@@ -37,7 +47,7 @@
 
 # sqlite3 [#11383](https://github.com/conan-io/conan-center-index/pull/11383)
 
-[build 9](https://c3i.jfrog.io/c3i/misc/logs/pr/11383). last update on 2022-07-02 03:08:13
+[build 9](https://c3i.jfrog.io/c3i/misc/logs/pr/11383). last update on 2022-07-02 03:59:01
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
@@ -45,10 +55,10 @@
 | 3.38.0 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9/sqlite3/3.38.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.38.0/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-clang/sqlite3/3.38.0/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-configs/windows-visual_studio/sqlite3/3.38.0/summary.json), 12&nbsp;profiles, 7&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-configs/macos-clang/sqlite3/3.38.0/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-configs/macos-m1-clang/sqlite3/3.38.0/summary.json), 8&nbsp;profiles, 8&nbsp;tests |
 | 3.38.1 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9/sqlite3/3.38.1/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.38.1/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-clang/sqlite3/3.38.1/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-configs/windows-visual_studio/sqlite3/3.38.1/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-configs/macos-clang/sqlite3/3.38.1/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-configs/macos-m1-clang/sqlite3/3.38.1/summary.json), 8&nbsp;profiles, 8&nbsp;tests |
 | 3.38.5 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9/sqlite3/3.38.5/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.38.5/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-clang/sqlite3/3.38.5/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-configs/windows-visual_studio/sqlite3/3.38.5/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-configs/macos-clang/sqlite3/3.38.5/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-configs/macos-m1-clang/sqlite3/3.38.5/summary.json), 8&nbsp;profiles, 8&nbsp;tests |
-| 3.36.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.36.0), 9&nbsp;profiles, 9&nbsp;tests |  |  |  |  |
-| 3.38.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.38.3), 7&nbsp;profiles, 7&nbsp;tests |  |  |  |  |
-| 3.38.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.38.4), 8&nbsp;profiles, 8&nbsp;tests |  |  |  |  |
-| 3.39.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.39.0), 6&nbsp;profiles, 6&nbsp;tests |  |  |  |  |
+| 3.36.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.36.0/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-clang/sqlite3/3.36.0/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  |  |  |
+| 3.38.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.38.3/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-clang/sqlite3/3.38.3/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  |  |  |
+| 3.38.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.38.4/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-clang/sqlite3/3.38.4/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  |  |  |
+| 3.39.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-gcc/sqlite3/3.39.0/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11383/9-linux-clang/sqlite3/3.39.0/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  |  |  |
 
 
 # mongo-c-driver [#11311](https://github.com/conan-io/conan-center-index/pull/11311)

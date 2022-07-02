@@ -11,12 +11,12 @@
 
 # pango [#11378](https://github.com/conan-io/conan-center-index/pull/11378)
 
-[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11378). last update on 2022-07-02 02:56:06
+[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11378). last update on 2022-07-02 04:03:39
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.48.9 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.48.9), 19&nbsp;profiles, 19&nbsp;tests |  |  |  |  |
-| 1.49.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.49.0), 18&nbsp;profiles, 18&nbsp;tests |  |  |  |  |
-| 1.49.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.49.1), 18&nbsp;profiles, 18&nbsp;tests |  |  |  |  |
-| 1.49.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.49.2), 18&nbsp;profiles, 18&nbsp;tests |  |  |  |  |
+| 1.48.9 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.48.9/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-clang/pango/1.48.9), 5&nbsp;profiles, 5&nbsp;tests |  |  |  |
+| 1.49.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.49.1/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-clang/pango/1.49.1), 5&nbsp;profiles, 5&nbsp;tests |  |  |  |
+| 1.49.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.49.0/summary.json), 40&nbsp;profiles, 40&nbsp;tests |  |  |  |  |
+| 1.49.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/8-linux-gcc/pango/1.49.2/summary.json), 40&nbsp;profiles, 40&nbsp;tests |  |  |  |  |
 

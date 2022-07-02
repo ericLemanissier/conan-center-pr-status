@@ -1,10 +1,10 @@
 
 # ogg [#11042](https://github.com/conan-io/conan-center-index/pull/11042)
 
-[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11042). last update on 2022-07-02 03:05:49
+[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11042). last update on 2022-07-02 03:58:12
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.3.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11042/8-linux-gcc/ogg/1.3.4), 14&nbsp;profiles, 14&nbsp;tests |  |  |  |  |
-| 1.3.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11042/8-linux-gcc/ogg/1.3.5), 18&nbsp;profiles, 18&nbsp;tests |  |  |  |  |
+| 1.3.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11042/8-linux-gcc/ogg/1.3.4/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11042/8-linux-clang/ogg/1.3.4/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11042/8-configs/macos-clang/ogg/1.3.4), 3&nbsp;profiles, 3&nbsp;tests |  |
+| 1.3.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11042/8-linux-gcc/ogg/1.3.5/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11042/8-linux-clang/ogg/1.3.5/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11042/8-configs/macos-clang/ogg/1.3.5), 3&nbsp;profiles, 3&nbsp;tests |  |
 
