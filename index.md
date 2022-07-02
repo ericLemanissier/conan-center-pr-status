@@ -1,14 +1,14 @@
 
 # qt [#11496](https://github.com/conan-io/conan-center-index/pull/11496)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11496). last update on 2022-07-02 21:34:44
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11496). last update on 2022-07-02 21:47:23
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 5.15.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.3/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-clang/qt/5.15.3), 8&nbsp;profiles |  |  |  |
-| 5.15.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.2), 40&nbsp;profiles, 30&nbsp;builds, 30&nbsp;tests |  |  |  |  |
-| 5.15.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.4), 40&nbsp;profiles, 34&nbsp;builds, 34&nbsp;tests |  |  |  |  |
-| 5.15.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.5), 40&nbsp;profiles, 38&nbsp;builds, 38&nbsp;tests |  |  |  |  |
+| 5.15.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.3/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-clang/qt/5.15.3), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  |  |  |
+| 5.15.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.5/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-clang/qt/5.15.5), 8&nbsp;profiles |  |  |  |
+| 5.15.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.2), 40&nbsp;profiles, 37&nbsp;builds, 37&nbsp;tests |  |  |  |  |
+| 5.15.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.4), 40&nbsp;profiles, 38&nbsp;builds, 38&nbsp;tests |  |  |  |  |
 
 
 # pangomm [#11495](https://github.com/conan-io/conan-center-index/pull/11495)
@@ -57,15 +57,6 @@
 | 1.2.2 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11491/1/arsenalgear/1.2.2/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11491/1-linux-gcc/arsenalgear/1.2.2/summary.json), 32&nbsp;profiles, 32&nbsp;builds, 32&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11491/1-linux-clang/arsenalgear/1.2.2/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11491/1-configs/windows-visual_studio/arsenalgear/1.2.2/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11491/1-configs/macos-clang/arsenalgear/1.2.2/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11491/1-configs/macos-m1-clang/arsenalgear/1.2.2/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |
 
 build of 11490 did not start yet
-
-# libgphoto2 [#11488](https://github.com/conan-io/conan-center-index/pull/11488)
-
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11488). last update on 2022-07-02 21:24:29
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 2.5.27 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11488/1/libgphoto2/2.5.27/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11488/1-linux-gcc/libgphoto2/2.5.27/summary.json), 10&nbsp;profiles, 10&nbsp;builds, 10&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11488/1-linux-clang/libgphoto2/2.5.27/summary.json), 2&nbsp;profiles, 2&nbsp;builds, 2&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11488/1-configs/windows-visual_studio/libgphoto2/2.5.27/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11488/1-configs/macos-clang/libgphoto2/2.5.27/summary.json), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11488/1-configs/macos-m1-clang/libgphoto2/2.5.27/summary.json), 2&nbsp;profiles, 2&nbsp;builds, 2&nbsp;tests |
-
 
 # highfive [#11487](https://github.com/conan-io/conan-center-index/pull/11487)
 
@@ -423,7 +414,7 @@ build of 11406 did not start yet
 
 # mongo-c-driver [#11311](https://github.com/conan-io/conan-center-index/pull/11311)
 
-[build 14](https://c3i.jfrog.io/c3i/misc/logs/pr/11311). last update on 2022-07-02 21:35:27
+[build 14](https://c3i.jfrog.io/c3i/misc/logs/pr/11311). last update on 2022-07-02 21:36:13
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
@@ -431,7 +422,7 @@ build of 11406 did not start yet
 | 1.17.3 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14/mongo-c-driver/1.17.3/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.17.3/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-clang/mongo-c-driver/1.17.3/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/windows-visual_studio/mongo-c-driver/1.17.3/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-clang/mongo-c-driver/1.17.3/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-m1-clang/mongo-c-driver/1.17.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |
 | 1.17.4 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14/mongo-c-driver/1.17.4/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.17.4/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-clang/mongo-c-driver/1.17.4/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/windows-visual_studio/mongo-c-driver/1.17.4/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-clang/mongo-c-driver/1.17.4/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-m1-clang/mongo-c-driver/1.17.4/summary.json), 8&nbsp;profiles, 8&nbsp;tests |
 | 1.22.0 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14/mongo-c-driver/1.22.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.22.0/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-clang/mongo-c-driver/1.22.0/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/windows-visual_studio/mongo-c-driver/1.22.0/summary.json), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-clang/mongo-c-driver/1.22.0/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-m1-clang/mongo-c-driver/1.22.0/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |
-| 1.17.6 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.17.6/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-clang/mongo-c-driver/1.17.6/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-clang/mongo-c-driver/1.17.6/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-m1-clang/mongo-c-driver/1.17.6), 8&nbsp;profiles, 6&nbsp;tests |
+| 1.17.6 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-gcc/mongo-c-driver/1.17.6/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-linux-clang/mongo-c-driver/1.17.6/summary.json), 12&nbsp;profiles, 12&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-clang/mongo-c-driver/1.17.6/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11311/14-configs/macos-m1-clang/mongo-c-driver/1.17.6/summary.json), 8&nbsp;profiles, 8&nbsp;tests |
 
 
 # ignition-tools [#11309](https://github.com/conan-io/conan-center-index/pull/11309)

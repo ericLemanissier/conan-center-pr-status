@@ -1,14 +1,14 @@
 
 # qt [#11496](https://github.com/conan-io/conan-center-index/pull/11496)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11496). last update on 2022-07-02 21:34:44
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11496). last update on 2022-07-02 21:47:23
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 5.15.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.3/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-clang/qt/5.15.3), 8&nbsp;profiles |  |  |  |
-| 5.15.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.2), 40&nbsp;profiles, 30&nbsp;builds, 30&nbsp;tests |  |  |  |  |
-| 5.15.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.4), 40&nbsp;profiles, 34&nbsp;builds, 34&nbsp;tests |  |  |  |  |
-| 5.15.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.5), 40&nbsp;profiles, 38&nbsp;builds, 38&nbsp;tests |  |  |  |  |
+| 5.15.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.3/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-clang/qt/5.15.3), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  |  |  |
+| 5.15.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.5/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-clang/qt/5.15.5), 8&nbsp;profiles |  |  |  |
+| 5.15.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.2), 40&nbsp;profiles, 37&nbsp;builds, 37&nbsp;tests |  |  |  |  |
+| 5.15.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.4), 40&nbsp;profiles, 38&nbsp;builds, 38&nbsp;tests |  |  |  |  |
 
 
 # wayland [#11494](https://github.com/conan-io/conan-center-index/pull/11494)
