@@ -1,14 +1,14 @@
 
 # qt [#11496](https://github.com/conan-io/conan-center-index/pull/11496)
 
-[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11496). last update on 2022-07-02 22:55:10
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11496). last update on 2022-07-02 23:26:07
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 5.15.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-gcc/qt/5.15.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-clang/qt/5.15.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-configs/macos-clang/qt/5.15.3), 8&nbsp;profiles |  |
+| 5.15.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-gcc/qt/5.15.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-clang/qt/5.15.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-configs/macos-clang/qt/5.15.3), 8&nbsp;profiles, 4&nbsp;builds, 3&nbsp;tests |  |
+| 5.15.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-gcc/qt/5.15.4/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-clang/qt/5.15.4/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-configs/macos-clang/qt/5.15.4), 2&nbsp;profiles |  |
 | 5.15.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-gcc/qt/5.15.5/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-clang/qt/5.15.5/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-configs/macos-clang/qt/5.15.5), 4&nbsp;profiles |  |
 | 5.15.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-gcc/qt/5.15.2/summary.json), 40&nbsp;profiles, 2&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-clang/qt/5.15.2/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  |  |  |
-| 5.15.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-gcc/qt/5.15.4/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-clang/qt/5.15.4/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  |  |  |
 
 
 # wayland [#11494](https://github.com/conan-io/conan-center-index/pull/11494)
