@@ -23,14 +23,14 @@
 
 # gtk [#11399](https://github.com/conan-io/conan-center-index/pull/11399)
 
-[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11399). last update on 2022-07-01 22:52:43
+[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11399). last update on 2022-07-02 03:09:28
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 4.3.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.3.2), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
-| 4.4.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.4.0), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
-| 4.6.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.6.2), 2&nbsp;profiles, 2&nbsp;tests |  |  |  |  |
-| 4.7.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.7.0), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |  |
+| 4.3.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.3.2), 5&nbsp;profiles, 5&nbsp;tests |  |  |  |  |
+| 4.4.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.4.0), 9&nbsp;profiles, 9&nbsp;tests |  |  |  |  |
+| 4.6.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.6.2/summary.json), 10&nbsp;profiles, 10&nbsp;tests |  |  |  |  |
+| 4.7.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11399/8-linux-gcc/gtk/4.7.0), 6&nbsp;profiles, 6&nbsp;tests |  |  |  |  |
 
 
 # pcl [#1891](https://github.com/conan-io/conan-center-index/pull/1891)
