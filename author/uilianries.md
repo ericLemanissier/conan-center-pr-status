@@ -1,11 +1,11 @@
 
 # cocoyaxi [#11345](https://github.com/conan-io/conan-center-index/pull/11345)
 
-[build 7](https://c3i.jfrog.io/c3i/misc/logs/pr/11345). last update on 2022-07-02 15:49:43
+[build 7](https://c3i.jfrog.io/c3i/misc/logs/pr/11345). last update on 2022-07-02 21:03:48
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 2.0.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/7-linux-gcc/cocoyaxi/2.0.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/7-linux-clang/cocoyaxi/2.0.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11345/7-configs/macos-clang/cocoyaxi/2.0.3), 7&nbsp;profiles, 7&nbsp;tests |  |
+| 2.0.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/7-linux-gcc/cocoyaxi/2.0.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/7-linux-clang/cocoyaxi/2.0.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/7-configs/macos-clang/cocoyaxi/2.0.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  |
 
 
 # ccache [#11343](https://github.com/conan-io/conan-center-index/pull/11343)
