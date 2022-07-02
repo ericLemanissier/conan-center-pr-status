@@ -1,20 +1,20 @@
 
 # daw_header_libraries [#11493](https://github.com/conan-io/conan-center-index/pull/11493)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11493). last update on 2022-07-02 15:45:27
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11493). last update on 2022-07-02 16:05:01
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 2.65.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11493/1-linux-gcc/daw_header_libraries/2.65.0/summary.json), 1&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests |  |  |  |  |
+| 2.65.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11493/1-linux-gcc/daw_header_libraries/2.65.0/summary.json), 1&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11493/1-linux-clang/daw_header_libraries/2.65.0/summary.json), 1&nbsp;profiles, 1&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11493/1-configs/macos-clang/daw_header_libraries/2.65.0/summary.json), 1&nbsp;profiles, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11493/1-configs/macos-m1-clang/daw_header_libraries/2.65.0/summary.json), 1&nbsp;profiles, 1&nbsp;tests |
 
 
 # arsenalgear [#11491](https://github.com/conan-io/conan-center-index/pull/11491)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11491). last update on 2022-07-02 15:46:47
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11491). last update on 2022-07-02 16:11:45
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.2.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11491/1-linux-gcc/arsenalgear/1.2.2), 21&nbsp;profiles, 21&nbsp;builds, 21&nbsp;tests |  |  |  |  |
+| 1.2.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11491/1-linux-gcc/arsenalgear/1.2.2/summary.json), 32&nbsp;profiles, 32&nbsp;builds, 32&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11491/1-linux-clang/arsenalgear/1.2.2/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11491/1-configs/macos-clang/arsenalgear/1.2.2), 8&nbsp;profiles |  |
 
 
 # libgphoto2 [#11488](https://github.com/conan-io/conan-center-index/pull/11488)
