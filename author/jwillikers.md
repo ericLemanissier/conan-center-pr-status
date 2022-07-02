@@ -1,4 +1,14 @@
-build of 11496 did not start yet
+
+# qt [#11496](https://github.com/conan-io/conan-center-index/pull/11496)
+
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11496). last update on 2022-07-02 19:03:11
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 5.15.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.3), 11&nbsp;profiles |  |  |  |  |
+| 5.15.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.4), 6&nbsp;profiles |  |  |  |  |
+| 5.15.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.5), 8&nbsp;profiles |  |  |  |  |
+
 
 # wayland [#11494](https://github.com/conan-io/conan-center-index/pull/11494)
 
