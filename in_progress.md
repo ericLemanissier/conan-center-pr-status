@@ -1,11 +1,11 @@
 
 # openscenegraph [#11486](https://github.com/conan-io/conan-center-index/pull/11486)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11486). last update on 2022-07-02 09:28:54
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11486). last update on 2022-07-02 10:02:53
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 3.6.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11486/1-linux-gcc/openscenegraph/3.6.5), 40&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
+| 3.6.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11486/1-linux-gcc/openscenegraph/3.6.5/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11486/1-linux-clang/openscenegraph/3.6.5), 8&nbsp;profiles |  |  |  |
 
 
 # aws-c-event-stream [#11482](https://github.com/conan-io/conan-center-index/pull/11482)
@@ -35,13 +35,13 @@
 
 # qt [#11475](https://github.com/conan-io/conan-center-index/pull/11475)
 
-[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11475). last update on 2022-07-02 08:38:43
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11475). last update on 2022-07-02 10:09:39
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 6.0.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.0.4/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-clang/qt/6.0.4/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-clang/qt/6.0.4), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |
-| 6.1.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.1.3/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-clang/qt/6.1.3/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-clang/qt/6.1.3), 8&nbsp;profiles, 5&nbsp;builds, 5&nbsp;tests |  |
-| 6.2.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.2.4/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-clang/qt/6.2.4/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-clang/qt/6.2.4), 8&nbsp;profiles, 7&nbsp;builds, 7&nbsp;tests |  |
+| 6.1.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.1.3/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-clang/qt/6.1.3/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-clang/qt/6.1.3), 8&nbsp;profiles, 8&nbsp;builds, 7&nbsp;tests |  |
+| 6.2.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.2.4/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-clang/qt/6.2.4/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/windows-visual_studio/qt/6.2.4), 6&nbsp;profiles | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-clang/qt/6.2.4/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-m1-clang/qt/6.2.4/summary.json) |
 | 6.3.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-gcc/qt/6.3.0/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-linux-clang/qt/6.3.0/summary.json), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11475/2-configs/macos-clang/qt/6.3.0), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |
 
 
@@ -193,11 +193,11 @@
 
 # qxlsx [#11364](https://github.com/conan-io/conan-center-index/pull/11364)
 
-[build 9](https://c3i.jfrog.io/c3i/misc/logs/pr/11364). last update on 2022-07-01 23:10:31
+[build 9](https://c3i.jfrog.io/c3i/misc/logs/pr/11364). last update on 2022-07-02 10:10:43
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.4.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/9-linux-gcc/qxlsx/1.4.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/9-linux-clang/qxlsx/1.4.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11364/9-configs/macos-clang/qxlsx/1.4.3), 2&nbsp;profiles, 2&nbsp;tests |  |
+| 1.4.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/9-linux-gcc/qxlsx/1.4.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/9-linux-clang/qxlsx/1.4.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11364/9-configs/macos-clang/qxlsx/1.4.3), 5&nbsp;profiles, 4&nbsp;tests |  |
 
 
 # cocoyaxi [#11345](https://github.com/conan-io/conan-center-index/pull/11345)
