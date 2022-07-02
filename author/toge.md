@@ -1,3 +1,4 @@
+build of 11486 did not start yet
 
 # libcurl [#11478](https://github.com/conan-io/conan-center-index/pull/11478)
 
