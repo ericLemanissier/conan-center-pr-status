@@ -1,4 +1,13 @@
 
+# highfive [#11487](https://github.com/conan-io/conan-center-index/pull/11487)
+
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11487). last update on 2022-07-02 13:17:27
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 2.4.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11487/1-linux-gcc/highfive/2.4.1), 1&nbsp;profiles |  |  |  |  |
+
+
 # openscenegraph [#11486](https://github.com/conan-io/conan-center-index/pull/11486)
 
 [build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11486). last update on 2022-07-02 11:48:07
@@ -20,11 +29,11 @@ build of 11483 did not start yet
 
 # detours [#11480](https://github.com/conan-io/conan-center-index/pull/11480)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11480). last update on 2022-07-02 03:25:44
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11480). last update on 2022-07-02 13:18:38
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| cci.20220630 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11480/1/detours/cci.20220630/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11480/1-linux-gcc/detours/cci.20220630/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11480/1-linux-clang/detours/cci.20220630/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11480/1-configs/windows-visual_studio/detours/cci.20220630/summary.json), 2&nbsp;profiles, 2&nbsp;builds, 2&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11480/1-configs/macos-clang/detours/cci.20220630/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11480/1-configs/macos-m1-clang/detours/cci.20220630/summary.json) |
+| cci.20220630 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11480/2-linux-gcc/detours/cci.20220630/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11480/2-linux-clang/detours/cci.20220630/summary.json) | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11480/2-configs/windows-visual_studio/detours/cci.20220630), 1&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11480/2-configs/macos-clang/detours/cci.20220630/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11480/2-configs/macos-m1-clang/detours/cci.20220630/summary.json) |
 
 
 # libcurl [#11478](https://github.com/conan-io/conan-center-index/pull/11478)
