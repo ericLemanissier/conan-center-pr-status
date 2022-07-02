@@ -1,13 +1,14 @@
 
 # qt [#11496](https://github.com/conan-io/conan-center-index/pull/11496)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11496). last update on 2022-07-02 19:03:11
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11496). last update on 2022-07-02 19:22:12
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 5.15.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.3), 11&nbsp;profiles |  |  |  |  |
-| 5.15.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.4), 6&nbsp;profiles |  |  |  |  |
-| 5.15.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.5), 8&nbsp;profiles |  |  |  |  |
+| 5.15.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.2), 2&nbsp;profiles |  |  |  |  |
+| 5.15.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.3), 11&nbsp;profiles, 2&nbsp;builds, 1&nbsp;tests |  |  |  |  |
+| 5.15.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.4), 8&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests |  |  |  |  |
+| 5.15.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.5), 8&nbsp;profiles, 2&nbsp;builds, 2&nbsp;tests |  |  |  |  |
 
 
 # pangomm [#11495](https://github.com/conan-io/conan-center-index/pull/11495)
