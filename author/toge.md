@@ -1,3 +1,4 @@
+build of 11488 did not start yet
 
 # openscenegraph [#11486](https://github.com/conan-io/conan-center-index/pull/11486)
 
