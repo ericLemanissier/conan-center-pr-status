@@ -1,14 +1,14 @@
 
 # qt [#11496](https://github.com/conan-io/conan-center-index/pull/11496)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11496). last update on 2022-07-02 21:08:51
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11496). last update on 2022-07-02 21:25:18
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 5.15.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.2), 29&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
-| 5.15.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.3), 40&nbsp;profiles, 33&nbsp;builds, 33&nbsp;tests |  |  |  |  |
-| 5.15.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.4), 33&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
-| 5.15.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.5), 38&nbsp;profiles, 26&nbsp;builds, 26&nbsp;tests |  |  |  |  |
+| 5.15.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.2), 36&nbsp;profiles, 22&nbsp;builds, 21&nbsp;tests |  |  |  |  |
+| 5.15.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.3/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests |  |  |  |  |
+| 5.15.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.4), 39&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  |  |  |  |
+| 5.15.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11496/1-linux-gcc/qt/5.15.5), 40&nbsp;profiles, 30&nbsp;builds, 29&nbsp;tests |  |  |  |  |
 
 
 # wayland [#11494](https://github.com/conan-io/conan-center-index/pull/11494)
@@ -31,12 +31,12 @@
 
 # boost [#11402](https://github.com/conan-io/conan-center-index/pull/11402)
 
-[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/11402). last update on 2022-07-02 20:42:25
+[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/11402). last update on 2022-07-02 21:23:49
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 1.69.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-linux-gcc/boost/1.69.0/summary.json), 49&nbsp;profiles, 49&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-linux-clang/boost/1.69.0/summary.json), 25&nbsp;profiles, 25&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-configs/macos-clang/boost/1.69.0/summary.json), 13&nbsp;profiles, 13&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-configs/macos-m1-clang/boost/1.69.0/summary.json), 9&nbsp;profiles, 9&nbsp;tests |
 | 1.71.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-linux-gcc/boost/1.71.0/summary.json), 49&nbsp;profiles, 49&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-linux-clang/boost/1.71.0/summary.json), 25&nbsp;profiles, 25&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-configs/macos-clang/boost/1.71.0/summary.json), 13&nbsp;profiles, 13&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-configs/macos-m1-clang/boost/1.71.0/summary.json), 9&nbsp;profiles, 9&nbsp;tests |
 | 1.72.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-linux-gcc/boost/1.72.0/summary.json), 49&nbsp;profiles, 49&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-linux-clang/boost/1.72.0/summary.json), 25&nbsp;profiles, 25&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-configs/macos-clang/boost/1.72.0/summary.json), 13&nbsp;profiles, 13&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-configs/macos-m1-clang/boost/1.72.0/summary.json), 9&nbsp;profiles, 9&nbsp;tests |
-| 1.79.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-linux-gcc/boost/1.79.0/summary.json), 49&nbsp;profiles, 49&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-linux-clang/boost/1.79.0/summary.json), 25&nbsp;profiles, 25&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-configs/macos-clang/boost/1.79.0), 12&nbsp;profiles, 12&nbsp;tests |  |
+| 1.79.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-linux-gcc/boost/1.79.0/summary.json), 49&nbsp;profiles, 49&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-linux-clang/boost/1.79.0/summary.json), 25&nbsp;profiles, 25&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11402/10-configs/macos-clang/boost/1.79.0/summary.json), 13&nbsp;profiles, 13&nbsp;tests |  |
 
