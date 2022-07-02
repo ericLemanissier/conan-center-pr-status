@@ -1,10 +1,10 @@
 
 # zxing-cpp [#8373](https://github.com/conan-io/conan-center-index/pull/8373)
 
-[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/8373). last update on 2022-07-01 22:24:55
+[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/8373). last update on 2022-07-02 00:54:33
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.0.8 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-linux-gcc/zxing-cpp/1.0.8/summary.json), 48&nbsp;profiles, 48&nbsp;builds, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-linux-clang/zxing-cpp/1.0.8/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-configs/macos-clang/zxing-cpp/1.0.8), 3&nbsp;profiles, 3&nbsp;builds, 3&nbsp;tests |  |
-| 1.3.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-linux-gcc/zxing-cpp/1.3.0/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-linux-clang/zxing-cpp/1.3.0/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-configs/macos-clang/zxing-cpp/1.3.0), 3&nbsp;profiles, 3&nbsp;builds, 3&nbsp;tests |  |
+| 1.0.8 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-linux-gcc/zxing-cpp/1.0.8/summary.json), 48&nbsp;profiles, 48&nbsp;builds, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-linux-clang/zxing-cpp/1.0.8/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-configs/macos-clang/zxing-cpp/1.0.8), 4&nbsp;profiles, 3&nbsp;builds, 3&nbsp;tests |  |
+| 1.3.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-linux-gcc/zxing-cpp/1.3.0/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-linux-clang/zxing-cpp/1.3.0/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/8373/10-configs/macos-clang/zxing-cpp/1.3.0), 6&nbsp;profiles, 6&nbsp;builds, 6&nbsp;tests |  |
 
