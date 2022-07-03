@@ -17,15 +17,6 @@
 | 1.3.219 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11513/2/vulkan-headers/1.3.219/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11513/2-linux-gcc/vulkan-headers/1.3.219/summary.json), 1&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11513/2-linux-clang/vulkan-headers/1.3.219/summary.json), 1&nbsp;profiles, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11513/2-configs/windows-visual_studio/vulkan-headers/1.3.219/summary.json), 1&nbsp;profiles, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11513/2-configs/macos-clang/vulkan-headers/1.3.219/summary.json), 1&nbsp;profiles, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11513/2-configs/macos-m1-clang/vulkan-headers/1.3.219/summary.json), 1&nbsp;profiles, 1&nbsp;tests |
 
 
-# hana [#11512](https://github.com/conan-io/conan-center-index/pull/11512)
-
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11512). last update on 2022-07-03 19:43:25
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 1.79.0 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11512/1/hana/1.79.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11512/1-linux-gcc/hana/1.79.0/summary.json), 1&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11512/1-linux-clang/hana/1.79.0/summary.json), 1&nbsp;profiles, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11512/1-configs/windows-visual_studio/hana/1.79.0/summary.json), 1&nbsp;profiles, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11512/1-configs/macos-clang/hana/1.79.0/summary.json), 1&nbsp;profiles, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11512/1-configs/macos-m1-clang/hana/1.79.0/summary.json), 1&nbsp;profiles, 1&nbsp;tests |
-
-
 # abseil [#11507](https://github.com/conan-io/conan-center-index/pull/11507)
 
 [build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11507). last update on 2022-07-03 18:35:53
