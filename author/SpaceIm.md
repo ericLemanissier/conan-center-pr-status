@@ -1,4 +1,14 @@
 
+# geos [#11502](https://github.com/conan-io/conan-center-index/pull/11502)
+
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11502). last update on 2022-07-03 15:09:14
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 3.10.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11502/1-linux-gcc/geos/3.10.1), 9&nbsp;profiles |  |  |  |  |
+| 3.10.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11502/1-linux-gcc/geos/3.10.2), 1&nbsp;profiles |  |  |  |  |
+
+
 # cpython [#10706](https://github.com/conan-io/conan-center-index/pull/10706)
 
 [build 6](https://c3i.jfrog.io/c3i/misc/logs/pr/10706). last update on 2022-06-30 09:29:52
