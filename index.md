@@ -1,4 +1,14 @@
-build of 11499 did not start yet
+
+# quazip [#11499](https://github.com/conan-io/conan-center-index/pull/11499)
+
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11499). last update on 2022-07-03 12:16:12
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 1.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11499/2-linux-gcc/quazip/1.1/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests |  |  |  |  |
+| 1.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11499/2-linux-gcc/quazip/1.2/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests |  |  |  |  |
+| 1.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11499/2-linux-gcc/quazip/1.3), 40&nbsp;profiles, 40&nbsp;builds, 38&nbsp;tests |  |  |  |  |
+
 
 # qt [#11496](https://github.com/conan-io/conan-center-index/pull/11496)
 
@@ -357,11 +367,11 @@ build of 11406 did not start yet
 
 # qxlsx [#11364](https://github.com/conan-io/conan-center-index/pull/11364)
 
-[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/11364). last update on 2022-07-03 11:48:42
+[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/11364). last update on 2022-07-03 12:11:31
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.4.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-linux-gcc/qxlsx/1.4.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-linux-clang/qxlsx/1.4.3), 8&nbsp;profiles, 5&nbsp;tests |  |  |  |
+| 1.4.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-linux-gcc/qxlsx/1.4.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-linux-clang/qxlsx/1.4.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-configs/windows-visual_studio/qxlsx/1.4.3), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-configs/macos-clang/qxlsx/1.4.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-configs/macos-m1-clang/qxlsx/1.4.3/summary.json) |
 
 
 # cocoyaxi [#11345](https://github.com/conan-io/conan-center-index/pull/11345)
