@@ -1,11 +1,12 @@
 
 # create-dmg [#11501](https://github.com/conan-io/conan-center-index/pull/11501)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11501). last update on 2022-07-03 14:23:24
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11501). last update on 2022-07-03 15:28:54
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.1.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/1-linux-gcc/create-dmg/1.1.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/1-linux-clang/create-dmg/1.1.0/summary.json) |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/1-configs/macos-clang/create-dmg/1.1.0/summary.json), 1&nbsp;profiles, 1&nbsp;builds |  |
+| 1.0.10 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-linux-gcc/create-dmg/1.0.10/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-linux-clang/create-dmg/1.0.10/summary.json) |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-configs/macos-clang/create-dmg/1.0.10/summary.json), 1&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests |  |
+| 1.1.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-linux-gcc/create-dmg/1.1.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-linux-clang/create-dmg/1.1.0/summary.json) |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-configs/macos-clang/create-dmg/1.1.0/summary.json), 1&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-configs/macos-m1-clang/create-dmg/1.1.0/summary.json), 1&nbsp;profiles, 1&nbsp;tests |
 
 
 # quazip [#11499](https://github.com/conan-io/conan-center-index/pull/11499)
