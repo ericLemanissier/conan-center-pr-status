@@ -1,4 +1,13 @@
 
+# create-dmg [#11501](https://github.com/conan-io/conan-center-index/pull/11501)
+
+[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11501). last update on 2022-07-03 14:23:24
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 1.1.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/1-linux-gcc/create-dmg/1.1.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/1-linux-clang/create-dmg/1.1.0/summary.json) |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/1-configs/macos-clang/create-dmg/1.1.0/summary.json), 1&nbsp;profiles, 1&nbsp;builds |  |
+
+
 # quazip [#11499](https://github.com/conan-io/conan-center-index/pull/11499)
 
 [build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11499). last update on 2022-07-03 13:50:50
