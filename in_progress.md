@@ -1,13 +1,4 @@
 
-# daw_json_link [#11500](https://github.com/conan-io/conan-center-index/pull/11500)
-
-[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11500). last update on 2022-07-03 13:18:37
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 3.0.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11500/2-linux-gcc/daw_json_link/3.0.1/summary.json), 1&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11500/2-linux-clang/daw_json_link/3.0.1/summary.json) |  |  |  |
-
-
 # quazip [#11499](https://github.com/conan-io/conan-center-index/pull/11499)
 
 [build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11499). last update on 2022-07-03 13:01:23
