@@ -1,12 +1,12 @@
 
 # pangomm [#11495](https://github.com/conan-io/conan-center-index/pull/11495)
 
-[build 3](https://c3i.jfrog.io/c3i/misc/logs/pr/11495). last update on 2022-07-04 09:02:53
+[build 3](https://c3i.jfrog.io/c3i/misc/logs/pr/11495). last update on 2022-07-04 09:06:23
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 2.46.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11495/3-linux-gcc/pangomm/2.46.2/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11495/3-linux-clang/pangomm/2.46.2/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11495/3-configs/macos-clang/pangomm/2.46.2/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  |
-| 2.50.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11495/3-linux-gcc/pangomm/2.50.0/summary.json), 32&nbsp;profiles, 32&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11495/3-linux-clang/pangomm/2.50.0/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11495/3-configs/macos-clang/pangomm/2.50.0/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  |
+| 2.50.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11495/3-linux-gcc/pangomm/2.50.0/summary.json), 32&nbsp;profiles, 32&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11495/3-linux-clang/pangomm/2.50.0/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11495/3-configs/macos-clang/pangomm/2.50.0/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11495/3-configs/macos-m1-clang/pangomm/2.50.0/summary.json) |
 
 
 # gtk [#11308](https://github.com/conan-io/conan-center-index/pull/11308)

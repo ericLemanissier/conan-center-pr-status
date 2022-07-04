@@ -1,11 +1,11 @@
 
 # aws-c-event-stream [#11482](https://github.com/conan-io/conan-center-index/pull/11482)
 
-[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11482). last update on 2022-07-04 09:01:51
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11482). last update on 2022-07-04 09:09:16
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 0.2.12 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11482/2-linux-gcc/aws-c-event-stream/0.2.12/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11482/2-linux-clang/aws-c-event-stream/0.2.12), 3&nbsp;profiles, 3&nbsp;tests |  |  |  |
+| 0.2.12 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11482/2-linux-gcc/aws-c-event-stream/0.2.12/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11482/2-linux-clang/aws-c-event-stream/0.2.12), 5&nbsp;profiles, 5&nbsp;tests |  |  |  |
 
 
 # sole [#11275](https://github.com/conan-io/conan-center-index/pull/11275)
