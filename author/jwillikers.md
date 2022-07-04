@@ -11,15 +11,6 @@
 | 5.15.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-gcc/qt/5.15.5/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-linux-clang/qt/5.15.5/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-configs/macos-clang/qt/5.15.5/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11496/2-configs/macos-m1-clang/qt/5.15.5/summary.json) |
 
 
-# wayland [#11494](https://github.com/conan-io/conan-center-index/pull/11494)
-
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11494). last update on 2022-07-02 16:35:08
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 1.21.0 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11494/1/wayland/1.21.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11494/1-linux-gcc/wayland/1.21.0/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11494/1-linux-clang/wayland/1.21.0/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11494/1-configs/windows-visual_studio/wayland/1.21.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11494/1-configs/macos-clang/wayland/1.21.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11494/1-configs/macos-m1-clang/wayland/1.21.0/summary.json) |
-
-
 # libdrm [#11492](https://github.com/conan-io/conan-center-index/pull/11492)
 
 [build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11492). last update on 2022-07-02 16:12:04
