@@ -1,3 +1,5 @@
+page generated on 2022-07-04 10:53:10.649828+00:00
+
 
 # allegro5 [#9753](https://github.com/conan-io/conan-center-index/pull/9753)
 

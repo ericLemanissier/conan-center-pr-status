@@ -1,3 +1,5 @@
+page generated on 2022-07-04 10:52:48.226390+00:00
+
 
 # infoware [#10945](https://github.com/conan-io/conan-center-index/pull/10945)
 
