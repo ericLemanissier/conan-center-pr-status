@@ -1,11 +1,3 @@
-page generated on 2022-07-04 13:18:59.911466+00:00
+page generated on 2022-07-04 13:39:44.885440+00:00
 
-
-# taocpp-pegtl [#8927](https://github.com/conan-io/conan-center-index/pull/8927)
-
-[build 3](https://c3i.jfrog.io/c3i/misc/logs/pr/8927). last update on 2022-01-17 17:53:45
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 3.2.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/8927/3-linux-gcc/taocpp-pegtl/3.2.2/summary.json), 1&nbsp;profiles, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/8927/3-linux-clang/taocpp-pegtl/3.2.2/summary.json), 1&nbsp;profiles, 1&nbsp;tests |  |  |  |
-
+{% include 8927.md %}

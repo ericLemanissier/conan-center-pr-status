@@ -1,12 +1,3 @@
-page generated on 2022-07-04 13:18:03.376674+00:00
+page generated on 2022-07-04 13:39:25.439723+00:00
 
-
-# xtensor-blas [#11201](https://github.com/conan-io/conan-center-index/pull/11201)
-
-[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/11201). last update on 2022-07-02 01:51:09
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 0.17.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11201/10-linux-gcc/xtensor-blas/0.17.2/summary.json), 1&nbsp;profiles, 1&nbsp;builds |  |  |  |  |
-| 0.20.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11201/10-linux-gcc/xtensor-blas/0.20.0/summary.json), 1&nbsp;profiles, 1&nbsp;builds |  |  |  |  |
-
+{% include 11201.md %}

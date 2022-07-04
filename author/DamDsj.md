@@ -1,11 +1,3 @@
-page generated on 2022-07-04 13:18:37.925206+00:00
+page generated on 2022-07-04 13:39:37.508205+00:00
 
-
-# tensorflow-lite [#10130](https://github.com/conan-io/conan-center-index/pull/10130)
-
-[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/10130). last update on 2022-05-02 09:51:18
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 2.6.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10130/8-linux-gcc/tensorflow-lite/2.6.0/summary.json), 1&nbsp;profiles, 1&nbsp;builds |  |  |  |  |
-
+{% include 10130.md %}

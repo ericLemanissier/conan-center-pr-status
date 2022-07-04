@@ -1,6 +1,3 @@
-page generated on 2022-07-04 13:19:00.051275+00:00
+page generated on 2022-07-04 13:39:44.923842+00:00
 
-
-# [#8555](https://github.com/conan-io/conan-center-index/pull/8555)
-
-build did not start yet
+{% include 8555.md %}

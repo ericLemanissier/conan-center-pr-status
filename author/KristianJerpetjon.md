@@ -1,12 +1,3 @@
-page generated on 2022-07-04 13:18:58.463447+00:00
+page generated on 2022-07-04 13:39:44.411121+00:00
 
-
-# foonathan-memory [#9085](https://github.com/conan-io/conan-center-index/pull/9085)
-
-[build 5](https://c3i.jfrog.io/c3i/misc/logs/pr/9085). last update on 2022-05-18 16:32:44
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 0.7.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/9085/5-linux-gcc/foonathan-memory/0.7.0/summary.json), 48&nbsp;profiles, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/9085/5-linux-clang/foonathan-memory/0.7.0/summary.json), 24&nbsp;profiles, 24&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/9085/5-configs/macos-clang/foonathan-memory/0.7.0/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/9085/5-configs/macos-m1-clang/foonathan-memory/0.7.0/summary.json), 8&nbsp;profiles, 2&nbsp;builds |
-| 0.7.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/9085/5-linux-gcc/foonathan-memory/0.7.1/summary.json), 48&nbsp;profiles, 48&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/9085/5-linux-clang/foonathan-memory/0.7.1/summary.json), 24&nbsp;profiles, 24&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/9085/5-configs/macos-clang/foonathan-memory/0.7.1/summary.json), 11&nbsp;profiles, 11&nbsp;tests |  |
-
+{% include 9085.md %}

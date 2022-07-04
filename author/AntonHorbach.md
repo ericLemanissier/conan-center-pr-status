@@ -1,11 +1,3 @@
-page generated on 2022-07-04 13:18:13.431434+00:00
+page generated on 2022-07-04 13:39:28.914217+00:00
 
-
-# infoware [#10945](https://github.com/conan-io/conan-center-index/pull/10945)
-
-[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/10945). last update on 2022-06-30 06:46:45
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 0.6.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/10945/8-linux-gcc/infoware/0.6.0/summary.json), 5&nbsp;profiles, 2&nbsp;builds, 5&nbsp;tests |  |  |  |  |
-
+{% include 10945.md %}

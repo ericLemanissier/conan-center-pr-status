@@ -1,21 +1,3 @@
-page generated on 2022-07-04 13:17:02.444005+00:00
+page generated on 2022-07-04 13:39:04.301276+00:00
 
-
-# create-dmg [#11501](https://github.com/conan-io/conan-center-index/pull/11501)
-
-[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11501). last update on 2022-07-03 15:33:42
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 1.0.10 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2/create-dmg/1.0.10/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-linux-gcc/create-dmg/1.0.10/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-linux-clang/create-dmg/1.0.10/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-configs/windows-visual_studio/create-dmg/1.0.10/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-configs/macos-clang/create-dmg/1.0.10/summary.json), 1&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-configs/macos-m1-clang/create-dmg/1.0.10/summary.json), 1&nbsp;profiles, 1&nbsp;tests |
-| 1.1.0 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2/create-dmg/1.1.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-linux-gcc/create-dmg/1.1.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-linux-clang/create-dmg/1.1.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-configs/windows-visual_studio/create-dmg/1.1.0/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-configs/macos-clang/create-dmg/1.1.0/summary.json), 1&nbsp;profiles, 1&nbsp;builds, 1&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11501/2-configs/macos-m1-clang/create-dmg/1.1.0/summary.json), 1&nbsp;profiles, 1&nbsp;tests |
-
-
-# qxlsx [#11364](https://github.com/conan-io/conan-center-index/pull/11364)
-
-[build 12](https://c3i.jfrog.io/c3i/misc/logs/pr/11364). last update on 2022-07-04 13:00:34
-
-| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
-| - | - | - | - | - | - | - |
-| 1.4.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/12-linux-gcc/qxlsx/1.4.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/12-linux-clang/qxlsx/1.4.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11364/12-configs/macos-clang/qxlsx/1.4.3), 2&nbsp;profiles, 2&nbsp;tests |  |
-
+{% include 11501.md %}{% include 11364.md %}
