@@ -32,9 +32,9 @@
 
 # qxlsx [#11364](https://github.com/conan-io/conan-center-index/pull/11364)
 
-[build 11](https://c3i.jfrog.io/c3i/misc/logs/pr/11364). last update on 2022-07-04 09:58:21
+[build 12](https://c3i.jfrog.io/c3i/misc/logs/pr/11364). last update on 2022-07-04 10:37:01
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.4.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/11-linux-gcc/qxlsx/1.4.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/11-linux-clang/qxlsx/1.4.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11364/11-configs/macos-clang/qxlsx/1.4.3), 5&nbsp;profiles, 5&nbsp;tests |  |
+| 1.4.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11364/12-linux-gcc/qxlsx/1.4.3), 30&nbsp;profiles, 25&nbsp;tests |  |  |  |  |
 
