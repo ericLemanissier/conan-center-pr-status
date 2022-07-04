@@ -1,4 +1,13 @@
 
+# qt [#11434](https://github.com/conan-io/conan-center-index/pull/11434)
+
+[build 5](https://c3i.jfrog.io/c3i/misc/logs/pr/11434). last update on 2022-07-04 05:05:17
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| 6.0.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11434/5-linux-gcc/qt/6.0.4), 2&nbsp;profiles |  |  |  |  |
+
+
 # harfbuzz [#11409](https://github.com/conan-io/conan-center-index/pull/11409)
 
 [build 17](https://c3i.jfrog.io/c3i/misc/logs/pr/11409). last update on 2022-07-02 21:02:48
