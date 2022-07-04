@@ -114,7 +114,8 @@ def process_pr(pr_number):
             status_dict[version][config or "global"] = descr
 
     if not build_number:
-        md = f"build of {pr_number} did not start yet\n"
+        md = f"\n# [#{pr_number}](https://github.com/conan-io/conan-center-index/pull/{pr_number})\n\n"
+        md += f"build did not start yet\n"
     else:
         for config in configs:
             current_path = f"{root_url}/{build_number}" + (f"-{config}" if config else "")
