@@ -1,4 +1,4 @@
-page generated on 2022-07-04 10:52:42.758288+00:00
+page generated on 2022-07-04 11:09:02.766637+00:00
 
 
 # xtensor-blas [#11201](https://github.com/conan-io/conan-center-index/pull/11201)

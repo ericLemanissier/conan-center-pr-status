@@ -1,4 +1,4 @@
-page generated on 2022-07-04 10:52:11.916577+00:00
+page generated on 2022-07-04 11:08:41.289939+00:00
 
 
 # [#11465](https://github.com/conan-io/conan-center-index/pull/11465)
@@ -26,3 +26,7 @@ build did not start yet
 | - | - | - | - | - | - | - |
 | 2020.06 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/8995/11-linux-gcc/magnum/2020.06/summary.json), 20&nbsp;profiles, 4&nbsp;builds, 3&nbsp;tests |  |  |  |  |
 
+
+# [#3951](https://github.com/conan-io/conan-center-index/pull/3951)
+
+build did not start yet

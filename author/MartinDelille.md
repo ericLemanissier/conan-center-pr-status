@@ -1,4 +1,4 @@
-page generated on 2022-07-04 10:52:00.442327+00:00
+page generated on 2022-07-04 11:08:33.289187+00:00
 
 
 # uncrustify [#11505](https://github.com/conan-io/conan-center-index/pull/11505)
@@ -23,9 +23,9 @@ page generated on 2022-07-04 10:52:00.442327+00:00
 
 # qxlsx [#11364](https://github.com/conan-io/conan-center-index/pull/11364)
 
-[build 12](https://c3i.jfrog.io/c3i/misc/logs/pr/11364). last update on 2022-07-04 10:43:17
+[build 12](https://c3i.jfrog.io/c3i/misc/logs/pr/11364). last update on 2022-07-04 11:08:49
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.4.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/12-linux-gcc/qxlsx/1.4.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests |  |  |  |  |
+| 1.4.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/12-linux-gcc/qxlsx/1.4.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11364/12-linux-clang/qxlsx/1.4.3), 8&nbsp;profiles, 7&nbsp;tests |  |  |  |
 
