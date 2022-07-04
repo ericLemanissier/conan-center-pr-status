@@ -32,9 +32,9 @@
 
 # qxlsx [#11364](https://github.com/conan-io/conan-center-index/pull/11364)
 
-[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/11364). last update on 2022-07-03 12:56:15
+[build 11](https://c3i.jfrog.io/c3i/misc/logs/pr/11364). last update on 2022-07-04 09:03:45
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.4.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-linux-gcc/qxlsx/1.4.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-linux-clang/qxlsx/1.4.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-configs/windows-visual_studio/qxlsx/1.4.3/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-configs/macos-clang/qxlsx/1.4.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11364/10-configs/macos-m1-clang/qxlsx/1.4.3/summary.json) |
+| 1.4.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11364/11-linux-gcc/qxlsx/1.4.3), 16&nbsp;profiles, 15&nbsp;tests |  |  |  |  |
 

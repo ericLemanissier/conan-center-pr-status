@@ -1,11 +1,11 @@
 
 # aws-c-event-stream [#11482](https://github.com/conan-io/conan-center-index/pull/11482)
 
-[build 1](https://c3i.jfrog.io/c3i/misc/logs/pr/11482). last update on 2022-07-02 17:53:28
+[build 2](https://c3i.jfrog.io/c3i/misc/logs/pr/11482). last update on 2022-07-04 09:01:51
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 0.2.12 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11482/1-linux-gcc/aws-c-event-stream/0.2.12/summary.json), 24&nbsp;profiles, 24&nbsp;builds, 24&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11482/1-linux-clang/aws-c-event-stream/0.2.12/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11482/1-configs/macos-clang/aws-c-event-stream/0.2.12/summary.json), 12&nbsp;profiles, 12&nbsp;builds, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11482/1-configs/macos-m1-clang/aws-c-event-stream/0.2.12/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |
+| 0.2.12 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11482/2-linux-gcc/aws-c-event-stream/0.2.12/summary.json), 24&nbsp;profiles, 24&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11482/2-linux-clang/aws-c-event-stream/0.2.12), 3&nbsp;profiles, 3&nbsp;tests |  |  |  |
 
 
 # sole [#11275](https://github.com/conan-io/conan-center-index/pull/11275)
