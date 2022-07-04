@@ -1,4 +1,4 @@
-page generated on 2022-07-04 12:21:46.566516+00:00
+page generated on 2022-07-04 13:19:03.992905+00:00
 
 
 # chai3d [#1318](https://github.com/conan-io/conan-center-index/pull/1318)
