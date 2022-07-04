@@ -162,6 +162,7 @@ if __name__ == '__main__':
     prs = json.loads(output)
     os.makedirs("pr", exist_ok=True)
     os.makedirs("author", exist_ok=True)
+    os.makedirs("_includes", exist_ok=True)
     for pr in prs:
         md = process_pr(pr["number"])
         
