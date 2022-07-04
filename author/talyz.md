@@ -1,7 +1,13 @@
 
-# [#11526](https://github.com/conan-io/conan-center-index/pull/11526)
+# ruy [#11526](https://github.com/conan-io/conan-center-index/pull/11526)
 
-build did not start yet
+[build 4](https://c3i.jfrog.io/c3i/misc/logs/pr/11526). last update on 2022-07-04 10:09:33
+
+| version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
+| - | - | - | - | - | - | - |
+| cci.20210622 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11526/4-linux-gcc/ruy/cci.20210622), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
+| cci.20220628 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11526/4-linux-gcc/ruy/cci.20220628), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
+
 
 # xnnpack [#11525](https://github.com/conan-io/conan-center-index/pull/11525)
 
