@@ -1,16 +1,16 @@
-page generated on 2022-07-04 11:48:40.672524+00:00
+page generated on 2022-07-04 12:21:08.032033+00:00
 
 
 # glib [#11053](https://github.com/conan-io/conan-center-index/pull/11053)
 
-[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/11053). last update on 2022-07-04 11:48:39
+[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/11053). last update on 2022-07-04 11:57:16
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 2.69.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-gcc/glib/2.69.3), 20&nbsp;profiles, 6&nbsp;builds, 5&nbsp;tests |  |  |  |  |
-| 2.70.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-gcc/glib/2.70.4), 20&nbsp;profiles, 16&nbsp;builds, 10&nbsp;tests |  |  |  |  |
-| 2.71.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-gcc/glib/2.71.3), 6&nbsp;profiles |  |  |  |  |
-| 2.73.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-gcc/glib/2.73.0), 12&nbsp;profiles |  |  |  |  |
+| 2.69.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-gcc/glib/2.69.3/summary.json), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-clang/glib/2.69.3/summary.json), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |  |  |
+| 2.70.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-gcc/glib/2.70.4/summary.json), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-clang/glib/2.70.4/summary.json), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |  |  |
+| 2.71.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-gcc/glib/2.71.3/summary.json), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-clang/glib/2.71.3/summary.json), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |  |  |
+| 2.73.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-gcc/glib/2.73.0/summary.json), 20&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11053/10-linux-clang/glib/2.73.0/summary.json), 4&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |  |  |
 
 
 # fmt [#10456](https://github.com/conan-io/conan-center-index/pull/10456)

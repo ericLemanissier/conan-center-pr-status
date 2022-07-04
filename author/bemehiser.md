@@ -1,4 +1,4 @@
-page generated on 2022-07-04 11:48:52.101435+00:00
+page generated on 2022-07-04 12:21:20.430484+00:00
 
 
 # protobuf-c [#10677](https://github.com/conan-io/conan-center-index/pull/10677)

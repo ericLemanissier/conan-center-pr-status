@@ -1,4 +1,4 @@
-page generated on 2022-07-04 11:48:27.404310+00:00
+page generated on 2022-07-04 12:20:53.532311+00:00
 
 
 # cocoyaxi [#11345](https://github.com/conan-io/conan-center-index/pull/11345)

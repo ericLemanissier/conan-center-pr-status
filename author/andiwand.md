@@ -1,4 +1,4 @@
-page generated on 2022-07-04 11:48:24.841902+00:00
+page generated on 2022-07-04 12:20:50.221299+00:00
 
 
 # poppler [#11381](https://github.com/conan-io/conan-center-index/pull/11381)
@@ -13,12 +13,12 @@ page generated on 2022-07-04 11:48:24.841902+00:00
 
 # pango [#11378](https://github.com/conan-io/conan-center-index/pull/11378)
 
-[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/11378). last update on 2022-07-04 11:47:58
+[build 10](https://c3i.jfrog.io/c3i/misc/logs/pr/11378). last update on 2022-07-04 12:06:13
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 1.48.9 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-gcc/pango/1.48.9), 23&nbsp;profiles, 20&nbsp;tests |  |  |  |  |
-| 1.49.0 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-gcc/pango/1.49.0), 22&nbsp;profiles, 20&nbsp;tests |  |  |  |  |
-| 1.49.1 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-gcc/pango/1.49.1), 20&nbsp;profiles, 20&nbsp;tests |  |  |  |  |
-| 1.50.7 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-gcc/pango/1.50.7), 20&nbsp;profiles, 20&nbsp;tests |  |  |  |  |
+| 1.48.9 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-gcc/pango/1.48.9/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-clang/pango/1.48.9/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  |  |  |
+| 1.49.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-gcc/pango/1.49.0/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-clang/pango/1.49.0/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  |  |  |
+| 1.49.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-gcc/pango/1.49.1/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-clang/pango/1.49.1/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  |  |  |
+| 1.50.7 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-gcc/pango/1.50.7/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11378/10-linux-clang/pango/1.50.7/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  |  |  |
 
