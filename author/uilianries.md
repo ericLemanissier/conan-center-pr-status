@@ -1,13 +1,13 @@
-page generated on 2022-07-04 11:26:18.102016+00:00
+page generated on 2022-07-04 11:35:37.599074+00:00
 
 
 # cocoyaxi [#11345](https://github.com/conan-io/conan-center-index/pull/11345)
 
-[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11345). last update on 2022-07-04 09:56:50
+[build 8](https://c3i.jfrog.io/c3i/misc/logs/pr/11345). last update on 2022-07-04 11:31:54
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 2.0.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/8-linux-gcc/cocoyaxi/2.0.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/8-linux-clang/cocoyaxi/2.0.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/8-configs/macos-clang/cocoyaxi/2.0.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests |  |
+| 2.0.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/8-linux-gcc/cocoyaxi/2.0.3/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/8-linux-clang/cocoyaxi/2.0.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11345/8-configs/windows-visual_studio/cocoyaxi/2.0.3), 4&nbsp;profiles, 4&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/8-configs/macos-clang/cocoyaxi/2.0.3/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11345/8-configs/macos-m1-clang/cocoyaxi/2.0.3/summary.json), 4&nbsp;profiles, 4&nbsp;tests |
 
 
 # ccache [#11343](https://github.com/conan-io/conan-center-index/pull/11343)

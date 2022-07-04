@@ -1,4 +1,4 @@
-page generated on 2022-07-04 11:26:38.471727+00:00
+page generated on 2022-07-04 11:36:10.960491+00:00
 
 
 # bison [#10251](https://github.com/conan-io/conan-center-index/pull/10251)

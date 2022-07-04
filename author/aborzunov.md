@@ -1,4 +1,4 @@
-page generated on 2022-07-04 11:26:33.853282+00:00
+page generated on 2022-07-04 11:36:03.335206+00:00
 
 
 # cuda-api-wrappers [#10728](https://github.com/conan-io/conan-center-index/pull/10728)

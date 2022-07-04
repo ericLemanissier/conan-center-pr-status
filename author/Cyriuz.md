@@ -1,4 +1,4 @@
-page generated on 2022-07-04 11:26:41.517393+00:00
+page generated on 2022-07-04 11:36:15.804035+00:00
 
 
 # imagemagick [#10003](https://github.com/conan-io/conan-center-index/pull/10003)
