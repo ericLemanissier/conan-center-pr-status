@@ -1,4 +1,4 @@
-page generated on 2022-07-04 11:08:38.082121+00:00
+page generated on 2022-07-04 11:26:01.473972+00:00
 
 
 # detours [#11480](https://github.com/conan-io/conan-center-index/pull/11480)

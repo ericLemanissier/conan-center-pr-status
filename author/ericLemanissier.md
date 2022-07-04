@@ -1,4 +1,4 @@
-page generated on 2022-07-04 11:08:29.425234+00:00
+page generated on 2022-07-04 11:25:52.858130+00:00
 
 
 # at-spi2-core [#11527](https://github.com/conan-io/conan-center-index/pull/11527)
@@ -34,14 +34,14 @@ page generated on 2022-07-04 11:08:29.425234+00:00
 
 # qt [#11432](https://github.com/conan-io/conan-center-index/pull/11432)
 
-[build 7](https://c3i.jfrog.io/c3i/misc/logs/pr/11432). last update on 2022-07-04 11:08:36
+[build 7](https://c3i.jfrog.io/c3i/misc/logs/pr/11432). last update on 2022-07-04 11:22:58
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 5.15.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.2/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-clang/qt/5.15.2/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-configs/macos-clang/qt/5.15.2), 4&nbsp;profiles, 1&nbsp;builds |  |
-| 5.15.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.4/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-clang/qt/5.15.4/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-configs/macos-clang/qt/5.15.4), 8&nbsp;profiles, 1&nbsp;builds |  |
+| 5.15.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.2/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-clang/qt/5.15.2/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-configs/macos-clang/qt/5.15.2), 4&nbsp;profiles, 3&nbsp;builds, 3&nbsp;tests |  |
+| 5.15.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.4/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-clang/qt/5.15.4/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-configs/macos-clang/qt/5.15.4), 8&nbsp;profiles, 4&nbsp;builds, 4&nbsp;tests |  |
+| 5.15.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.5/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-clang/qt/5.15.5/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-configs/macos-clang/qt/5.15.5), 4&nbsp;profiles |  |
 | 5.15.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.3/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-clang/qt/5.15.3/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  |  |  |
-| 5.15.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.5/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-clang/qt/5.15.5/summary.json), 8&nbsp;profiles, 8&nbsp;builds, 8&nbsp;tests |  |  |  |
 
 
 # harfbuzz [#11409](https://github.com/conan-io/conan-center-index/pull/11409)
