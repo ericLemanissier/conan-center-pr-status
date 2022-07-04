@@ -166,6 +166,9 @@ if __name__ == '__main__':
         md = process_pr(pr["number"])
         
         print(md)
+        with open(f"_includes/{pr['number']}.md", "w") as text_file:
+            text_file.write(md)
+        md = "{% include %s.md %}" % pr['number']
         append_to_file(md, f"pr/{pr['number']}.md")
         append_to_file(md, "index.md")
         append_to_file(md, f"author/{pr['author']['login']}.md")
