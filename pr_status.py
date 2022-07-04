@@ -148,23 +148,27 @@ def process_pr(pr_number):
         md += "\n"
     return md
 
+def append_to_file(content, filename):
+    file_exists = os.path.isfile(filename)
+    with open(filename, "a") as text_file:
+        if not file_exists:
+            text_file.write(f"page generated on {datetime.now(timezone.utc)}\n\n")
+        text_file.write(md)
+        
+
 if __name__ == '__main__':
     command = ["gh", "pr", "list", "--json", "number,author,labels,statusCheckRollup", "--repo", "conan-io/conan-center-index", "--limit", "200"]
     output = subprocess.check_output(command)
     prs = json.loads(output)
-    os.mkdir("pr")
-    os.mkdir("author")
+    os.makedirs("pr", exist_ok=True)
+    os.makedirs("author", exist_ok=True)
     for pr in prs:
         md = process_pr(pr["number"])
         
         print(md)
-        with open(f"pr/{pr['number']}.md", "w") as text_file:
-            text_file.write(md)
-        with open(f"index.md", "a") as text_file:
-            text_file.write(md)
-        with open(f"author/{pr['author']['login']}.md", "a") as text_file:
-            text_file.write(md)
+        append_to_file(md, f"pr/{pr['number']}.md")
+        append_to_file(md, "index.md")
+        append_to_file(md, f"author/{pr['author']['login']}.md")
         if  all(label["name"] not in ["Failed",  "User-approval pending", "Unexpected Error"] for label in pr['labels']) and \
             all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state","") not in ["ERROR", "SUCCESS"] for check in pr["statusCheckRollup"]):
-                with open(f"in_progress.md", "a") as text_file:
-                    text_file.write(md)
+                append_to_file(md, "in_progress.md")
