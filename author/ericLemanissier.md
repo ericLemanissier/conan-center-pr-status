@@ -1,3 +1,4 @@
+build of 11527 did not start yet
 build of 11524 did not start yet
 
 # qt [#11434](https://github.com/conan-io/conan-center-index/pull/11434)
@@ -15,26 +16,26 @@ build of 11524 did not start yet
 
 # qt [#11432](https://github.com/conan-io/conan-center-index/pull/11432)
 
-[build 7](https://c3i.jfrog.io/c3i/misc/logs/pr/11432). last update on 2022-07-04 09:10:41
+[build 7](https://c3i.jfrog.io/c3i/misc/logs/pr/11432). last update on 2022-07-04 09:30:04
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
-| 5.15.2 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.2), 40&nbsp;profiles, 21&nbsp;builds, 20&nbsp;tests |  |  |  |  |
-| 5.15.3 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.3), 40&nbsp;profiles, 20&nbsp;builds, 20&nbsp;tests |  |  |  |  |
-| 5.15.4 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.4), 40&nbsp;profiles, 22&nbsp;builds, 22&nbsp;tests |  |  |  |  |
-| 5.15.5 |  | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.5), 40&nbsp;profiles, 21&nbsp;builds, 21&nbsp;tests |  |  |  |  |
+| 5.15.2 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.2/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-clang/qt/5.15.2), 8&nbsp;profiles |  |  |  |
+| 5.15.3 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.3/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-clang/qt/5.15.3), 8&nbsp;profiles |  |  |  |
+| 5.15.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.4/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-clang/qt/5.15.4), 8&nbsp;profiles |  |  |  |
+| 5.15.5 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-gcc/qt/5.15.5/summary.json), 40&nbsp;profiles, 40&nbsp;builds, 40&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11432/7-linux-clang/qt/5.15.5), 8&nbsp;profiles |  |  |  |
 
 
 # harfbuzz [#11409](https://github.com/conan-io/conan-center-index/pull/11409)
 
-[build 18](https://c3i.jfrog.io/c3i/misc/logs/pr/11409). last update on 2022-07-04 08:59:07
+[build 18](https://c3i.jfrog.io/c3i/misc/logs/pr/11409). last update on 2022-07-04 09:31:20
 
 | version | global | linux-gcc | linux-clang | windows-visual_studio | macos-clang | macos-m1-clang |
 | - | - | - | - | - | - | - |
 | 2.6.8 | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18/harfbuzz/2.6.8/summary.json) | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-linux-gcc/harfbuzz/2.6.8/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-linux-clang/harfbuzz/2.6.8/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/windows-visual_studio/harfbuzz/2.6.8/summary.json), 12&nbsp;profiles, 12&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/macos-clang/harfbuzz/2.6.8/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/macos-m1-clang/harfbuzz/2.6.8/summary.json) |
 | 2.7.4 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-linux-gcc/harfbuzz/2.7.4/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-linux-clang/harfbuzz/2.7.4/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/windows-visual_studio/harfbuzz/2.7.4/summary.json), 10&nbsp;profiles, 9&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/macos-clang/harfbuzz/2.7.4/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/macos-m1-clang/harfbuzz/2.7.4/summary.json) |
 | 2.9.1 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-linux-gcc/harfbuzz/2.9.1/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-linux-clang/harfbuzz/2.9.1/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/windows-visual_studio/harfbuzz/2.9.1/summary.json), 9&nbsp;profiles, 9&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/macos-clang/harfbuzz/2.9.1/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/macos-m1-clang/harfbuzz/2.9.1/summary.json) |
-| 3.0.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-linux-gcc/harfbuzz/3.0.0/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-linux-clang/harfbuzz/3.0.0/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [in progress](https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/windows-visual_studio/harfbuzz/3.0.0), 9&nbsp;profiles, 9&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/macos-clang/harfbuzz/3.0.0/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/macos-m1-clang/harfbuzz/3.0.0/summary.json) |
+| 3.0.0 |  | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-linux-gcc/harfbuzz/3.0.0/summary.json), 40&nbsp;profiles, 40&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-linux-clang/harfbuzz/3.0.0/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/windows-visual_studio/harfbuzz/3.0.0/summary.json), 10&nbsp;profiles, 9&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/macos-clang/harfbuzz/3.0.0/summary.json), 8&nbsp;profiles, 8&nbsp;tests | [finished](https://c3i.jfrog.io/c3i/misc/summary.html?json=https://c3i.jfrog.io/c3i/misc/logs/pr/11409/18-configs/macos-m1-clang/harfbuzz/3.0.0/summary.json) |
 
 
 # libglvnd [#11121](https://github.com/conan-io/conan-center-index/pull/11121)
