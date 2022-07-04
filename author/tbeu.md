@@ -1,4 +1,4 @@
-page generated on 2022-07-04 11:36:09.187625+00:00
+page generated on 2022-07-04 11:48:56.431735+00:00
 
 
 # qtxlsxwriter [#10255](https://github.com/conan-io/conan-center-index/pull/10255)

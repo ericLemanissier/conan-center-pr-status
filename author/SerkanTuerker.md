@@ -1,4 +1,4 @@
-page generated on 2022-07-04 11:36:30.134602+00:00
+page generated on 2022-07-04 11:49:14.861424+00:00
 
 
 # zxing-cpp [#8373](https://github.com/conan-io/conan-center-index/pull/8373)

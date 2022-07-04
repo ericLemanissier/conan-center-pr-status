@@ -1,4 +1,4 @@
-page generated on 2022-07-04 11:34:56.214173+00:00
+page generated on 2022-07-04 11:47:51.066501+00:00
 
 
 # ruy [#11526](https://github.com/conan-io/conan-center-index/pull/11526)
