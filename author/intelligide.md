@@ -1,3 +1,4 @@
-page generated on 2022-07-05 10:11:57.904601+00:00
+{% include generation_date.md %}
 
-{% include 10202.md %}{% include 2560.md %}
+{% include 10202.md %}
+{% include 2560.md %}
