@@ -1,5 +1,7 @@
 {% include generation_date.md %}
 
+{% include 11572.md %}
+{% include 11571.md %}
 {% include 11570.md %}
 {% include 11569.md %}
 {% include 11567.md %}
@@ -156,7 +158,6 @@
 {% include 8927.md %}
 {% include 8789.md %}
 {% include 8555.md %}
-{% include 8373.md %}
 {% include 7613.md %}
 {% include 6758.md %}
 {% include 5100.md %}
