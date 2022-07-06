@@ -153,7 +153,7 @@ def append_to_file(content, filename):
     with open(filename, "a") as text_file:
         if not file_exists:
             text_file.write("{% include generation_date.md %}\n\n")
-        text_file.write(md)
+        text_file.write(content)
         
 
 if __name__ == '__main__':
