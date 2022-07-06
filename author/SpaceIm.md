@@ -1,6 +1,5 @@
 {% include generation_date.md %}
 
-{% include 11534.md %}
 {% include 10706.md %}
 {% include 10670.md %}
 {% include 10663.md %}
