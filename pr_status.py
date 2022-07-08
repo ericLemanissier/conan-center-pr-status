@@ -164,9 +164,11 @@ if __name__ == '__main__':
     os.makedirs("author", exist_ok=True)
     os.makedirs("_includes", exist_ok=True)
     
-    append_to_file("This page lists all the ongoing pull requests on conan-center-index\\n", "index.md")
-    append_to_file("You can filter by author by going to {{ site.url }}/author/author_handle\\n", "index.md")
-    append_to_file("You can view a specific PR by going to {{ site.url }}/pr/pr_number.\n\n", "index.md")
+    append_to_file("This page lists all the ongoing pull requests on conan-center-index.\\\n", "index.md")
+    url = "{{ site.url }}/conan-center-pr-status/author/author_handle"
+    append_to_file(f"You can filter by author by going to [{url}]({url}).\\\n", "index.md")
+    url = "{{ site.url }}/conan-center-pr-status/pr/pr_number"
+    append_to_file(f"You can view a specific PR by going to [{url}]({url}).\n\n", "index.md")
     
     for pr in prs:
         md = process_pr(pr["number"])
