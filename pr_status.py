@@ -152,7 +152,7 @@ def append_to_file(content, filename):
     file_exists = os.path.isfile(filename)
     with open(filename, "a") as text_file:
         if not file_exists:
-            text_file.write("{% include generation_date.md %}\n\n")
+            text_file.write("page generated on {{ site.time | date_to_xmlschema }}\n\n")
         text_file.write(content)
         
 
@@ -163,8 +163,6 @@ if __name__ == '__main__':
     os.makedirs("pr", exist_ok=True)
     os.makedirs("author", exist_ok=True)
     os.makedirs("_includes", exist_ok=True)
-    with open("_includes/generation_date.md", "w") as text_file:        
-        text_file.write(f"page generated on {datetime.now(timezone.utc)}")
     for pr in prs:
         md = process_pr(pr["number"])
         
