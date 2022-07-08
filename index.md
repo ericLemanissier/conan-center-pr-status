@@ -1,6 +1,8 @@
 page generated on {{ site.time | date_to_xmlschema }}
 
-This page lists all the ongoing pull requests on conan-center-index\nYou can filter by author by going to {{ site.url }}/author/author_handle\nYou can view a specific PR by going to {{ site.url }}/pr/pr_number.
+This page lists all the ongoing pull requests on conan-center-index.\
+You can filter by author by going to [{{ site.url }}/conan-center-pr-status/author/author_handle]({{ site.url }}/conan-center-pr-status/author/author_handle).\
+You can view a specific PR by going to [{{ site.url }}/conan-center-pr-status/pr/pr_number]({{ site.url }}/conan-center-pr-status/pr/pr_number).
 
 {% include 11601.md %}
 {% include 11598.md %}
