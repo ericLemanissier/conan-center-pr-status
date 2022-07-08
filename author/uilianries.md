@@ -1,4 +1,4 @@
-{% include generation_date.md %}
+page generated on {{ site.time | date_to_xmlschema }}
 
 {% include 11588.md %}
 {% include 11587.md %}
