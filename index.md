@@ -24,7 +24,6 @@ You can view a specific PR by going to [{{ site.url }}/conan-center-pr-status/pr
 {% include 11593.md %}
 {% include 11592.md %}
 {% include 11591.md %}
-{% include 11589.md %}
 {% include 11582.md %}
 {% include 11580.md %}
 {% include 11576.md %}
@@ -96,6 +95,7 @@ You can view a specific PR by going to [{{ site.url }}/conan-center-pr-status/pr
 {% include 10804.md %}
 {% include 10801.md %}
 {% include 10795.md %}
+{% include 10784.md %}
 {% include 10776.md %}
 {% include 10769.md %}
 {% include 10768.md %}
