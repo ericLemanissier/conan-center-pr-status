@@ -4,6 +4,11 @@ This page lists all the ongoing pull requests on conan-center-index.\
 You can filter by author by going to [{{ site.url }}/conan-center-pr-status/author/author_handle]({{ site.url }}/conan-center-pr-status/author/author_handle).\
 You can view a specific PR by going to [{{ site.url }}/conan-center-pr-status/pr/pr_number]({{ site.url }}/conan-center-pr-status/pr/pr_number).
 
+{% include 11682.md %}
+{% include 11681.md %}
+{% include 11680.md %}
+{% include 11679.md %}
+{% include 11678.md %}
 {% include 11677.md %}
 {% include 11676.md %}
 {% include 11675.md %}
