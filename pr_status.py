@@ -123,8 +123,13 @@ def process_pr(pr):
 
     tags = ", ".join(tags)
 
+    status = "NOT YET STARTED"
+    for check in pr["statusCheckRollup"]:
+        if check.get("context", "") == "continuous-integration/jenkins/pr-merge":
+            status = check.get("state","UNDEFINED")
+
     if not build_number:
-        md = f"\n# [#{pr_number}](https://github.com/conan-io/conan-center-index/pull/{pr_number})\n\n"
+        md = f"\n# [#{pr_number}](https://github.com/conan-io/conan-center-index/pull/{pr_number}): {status}\n\n"
         if tags:
             md += f"labels: {tags}\n\n"
         md += "build did not start yet\n"
@@ -139,7 +144,7 @@ def process_pr(pr):
             else:
                 process_config(current_path, config)
 
-        md = f"\n# {package_name} [#{pr_number}](https://github.com/conan-io/conan-center-index/pull/{pr_number})\n\n"
+        md = f"\n# {package_name} [#{pr_number}](https://github.com/conan-io/conan-center-index/pull/{pr_number}): {status}\n\n"
         if tags:
             md += f"labels: {tags}\n\n"
         md += f"[build {build_number}]({root_url}). last update on {last_stamp}\n"
