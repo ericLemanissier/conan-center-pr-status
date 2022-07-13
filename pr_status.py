@@ -10,7 +10,8 @@ f_regex = re.compile("^(\d+)(-(.+))?$")
 
 session = requests.Session()
 
-def process_pr(pr_number):
+def process_pr(pr):
+    pr_number = pr["number"]
     last_stamp = None
 
     root_url = f"https://c3i.jfrog.io/c3i/misc/logs/pr/{pr_number}"
@@ -113,9 +114,20 @@ def process_pr(pr_number):
                 descr += f", {n_test}&nbsp;tests"
             status_dict[version][config or "global"] = descr
 
+    tags = []
+    for tag in pr["labels"]:
+        if tag["description"]:
+            tags.append(f'[`{tag["name"]}`](# "{tag["description"]}")')
+        else:
+            tags.append(f'`{tag["name"]}`')
+
+    tags = ", ".join(tags)
+
     if not build_number:
         md = f"\n# [#{pr_number}](https://github.com/conan-io/conan-center-index/pull/{pr_number})\n\n"
-        md += f"build did not start yet\n"
+        if tags:
+            md += f"labels: {tags}\n\n"
+        md += "build did not start yet\n"
     else:
         for config in configs:
             current_path = f"{root_url}/{build_number}" + (f"-{config}" if config else "")
@@ -128,6 +140,8 @@ def process_pr(pr_number):
                 process_config(current_path, config)
 
         md = f"\n# {package_name} [#{pr_number}](https://github.com/conan-io/conan-center-index/pull/{pr_number})\n\n"
+        if tags:
+            md += f"labels: {tags}\n\n"
         md += f"[build {build_number}]({root_url}). last update on {last_stamp}\n"
         configs = ["global", "linux-gcc", "linux-clang", "windows-visual_studio", "macos-clang", "macos-m1-clang"]
         md += "\n| version |"
@@ -171,7 +185,7 @@ if __name__ == '__main__':
     append_to_file(f"You can view a specific PR by going to [{url}]({url}).\n\n", "index.md")
     
     for pr in prs:
-        md = process_pr(pr["number"])
+        md = process_pr(pr)
         
         print(md)
         with open(f"_includes/{pr['number']}.md", "w") as text_file:
