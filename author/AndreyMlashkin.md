@@ -2,8 +2,6 @@ page generated on {{ site.time | date_to_xmlschema }}
 
 {% include 11824.md %}
 {% include 11819.md %}
-{% include 11781.md %}
-{% include 11769.md %}
 {% include 11712.md %}
 {% include 11665.md %}
 {% include 11664.md %}
