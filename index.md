@@ -7,7 +7,6 @@ You can view a specific PR by going to [{{ site.url }}/conan-center-pr-status/pr
 {% include 11813.md %}
 {% include 11811.md %}
 {% include 11810.md %}
-{% include 11809.md %}
 {% include 11808.md %}
 {% include 11805.md %}
 {% include 11802.md %}
