@@ -5,7 +5,6 @@ You can filter by author by going to [{{ site.url }}/conan-center-pr-status/auth
 You can view a specific PR by going to [{{ site.url }}/conan-center-pr-status/pr/pr_number]({{ site.url }}/conan-center-pr-status/pr/pr_number).
 
 {% include 11829.md %}
-{% include 11828.md %}
 {% include 11827.md %}
 {% include 11826.md %}
 {% include 11825.md %}
