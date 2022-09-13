@@ -190,7 +190,7 @@ if __name__ == '__main__':
     append_to_file(f"You can view a specific PR by going to [{url}]({url}).\n\n", "index.md")
     
     for pr in prs:
-        command = ["gh", "pr", "view", pr['number'], "--json", "number,author,labels,statusCheckRollup", "--repo", "conan-io/conan-center-index"]
+        command = ["gh", "pr", "view", str(pr['number']), "--json", "number,author,labels,statusCheckRollup", "--repo", "conan-io/conan-center-index"]
         output = subprocess.check_output(command)
         pr = json.loads(output)
         md = process_pr(pr)
