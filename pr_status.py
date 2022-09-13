@@ -176,7 +176,7 @@ def append_to_file(content, filename):
         
 
 if __name__ == '__main__':
-    command = ["gh", "pr", "list", "--json", "number,author,labels,statusCheckRollup", "--repo", "conan-io/conan-center-index", "--limit", "200"]
+    command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index", "--limit", "2000"]
     output = subprocess.check_output(command)
     prs = json.loads(output)
     os.makedirs("pr", exist_ok=True)
@@ -190,6 +190,9 @@ if __name__ == '__main__':
     append_to_file(f"You can view a specific PR by going to [{url}]({url}).\n\n", "index.md")
     
     for pr in prs:
+        command = ["gh", "pr", "view", pr['number'], "--json", "number,author,labels,statusCheckRollup", "--repo", "conan-io/conan-center-index"]
+        output = subprocess.check_output(command)
+        pr = json.loads(output)
         md = process_pr(pr)
         
         print(md)
