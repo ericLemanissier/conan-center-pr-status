@@ -124,7 +124,7 @@ def process_pr(pr):
     tags = ", ".join(tags)
 
     status = "NOT YET STARTED"
-    for check in pr["statusCheckRollup"]:
+    for check in pr["statusCheckRollup"] or []:
         if check.get("context", "") == "continuous-integration/jenkins/pr-merge":
             status = check.get("state","UNDEFINED")
 
@@ -203,5 +203,5 @@ if __name__ == '__main__':
         append_to_file(md, "index.md")
         append_to_file(md, f"author/{pr['author']['login']}.md")
         if  all(label["name"] not in ["Failed",  "User-approval pending", "Unexpected Error"] for label in pr['labels']) and \
-            all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state","") not in ["ERROR", "SUCCESS"] for check in pr["statusCheckRollup"]):
+            all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state","") not in ["ERROR", "SUCCESS"] for check in pr["statusCheckRollup"] or []):
                 append_to_file(md, "in_progress.md")
