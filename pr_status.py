@@ -295,7 +295,7 @@ if __name__ == '__main__':
     append_to_file(f"You can filter by author by going to [{url}]({url}).\\\n", "index.md")
     url = "{{ site.url }}/conan-center-pr-status/pr/pr_number"
     append_to_file(f"You can view a specific PR by going to [{url}]({url}).\n\n", "index.md")
-    url = "{{ site.url }}/conan-center-pr-status/tables.html"
+    url = "{{ site.url }}/conan-center-pr-status/table.html"
     append_to_file(f"You can view all the jobs in tabular view by going to [{url}]({url}).\n\n", "index.md")
 
     for pr in prs:
