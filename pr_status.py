@@ -265,7 +265,7 @@ if __name__ == '__main__':
                     // Setup - add a text input to each footer cell
                     $('#summary tfoot th').each(function () {
                         var title = $(this).text();
-                        $(this).html('<input type="text" placeholder="Search ' + title + '" />');
+                        $(this).html('<input type="text" placeholder="Search ' + title + '" style="width: 100%;"/>');
                     });
 
                     $('#summary').DataTable({
