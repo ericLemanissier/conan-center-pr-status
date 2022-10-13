@@ -253,6 +253,11 @@ if __name__ == '__main__':
         <head>
             <title>ConanCenter - summary</title>
             <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>
+            <style>
+                tr td {
+                    white-space: nowrap;
+                }
+            </style>
         </head>
 
         <body>
@@ -265,10 +270,15 @@ if __name__ == '__main__':
                     // Setup - add a text input to each footer cell
                     $('#summary tfoot th').each(function () {
                         var title = $(this).text();
-                        $(this).html('<input type="text" placeholder="Search ' + title + '" style="width: 100%;"/>');
+                        $(this).html('<input type="text" placeholder="Filter ' + title + '" style="width:100%"/>');
                     });
 
                     $('#summary').DataTable({
+                        scrollX: true,
+                        scrollY: '80vh',
+                        scrollCollapse: true,
+                        paging: false,
+                        order: [[8, 'desc']],
                         initComplete: function () {
                             // Apply the search
                             this.api()
@@ -286,7 +296,7 @@ if __name__ == '__main__':
                     });
                 } );
             </script>
-            <table id="summary" class="display compact" style="width:100%">
+            <table id="summary" class="stripe hover order-column row-border compact nowrap" style="width:100%">
             """))
     html_file.write(f"<thead>{thead}</thead><tbody>")
 
@@ -295,7 +305,7 @@ if __name__ == '__main__':
     append_to_file(f"You can filter by author by going to [{url}]({url}).\\\n", "index.md")
     url = "{{ site.url }}/conan-center-pr-status/pr/pr_number"
     append_to_file(f"You can view a specific PR by going to [{url}]({url}).\n\n", "index.md")
-    url = "{{ site.url }}/conan-center-pr-status/table.html"
+    url = "{{ site.url }}/conan-center-pr-status/table"
     append_to_file(f"You can view all the jobs in tabular view by going to [{url}]({url}).\n\n", "index.md")
 
     for pr in prs:
