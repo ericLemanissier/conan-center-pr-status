@@ -129,30 +129,30 @@ def process_pr(pr, html_file):
                     status = f"[finished](https://c3i.jfrog.io/c3i/misc/summary.html?json={f.path})"
             for packageid, build in builds.items():
                 date = max(f.date for f in build.values())
-                html_file.write(textwrap.dedent(f"""\
-                    <tr>
-                        <td><a href='{pr['url']}'>#{pr_number}</a></td>
-                        <td>{package_name}/{version}</td>
-                        <td><a href='{root_url}'>{build_number}</a></td>
-                        <td>{config}</td>
-                        <td>{packageid}</td>"""))
+                html_file.write("<tr>")
+                html_file.write(f"<td><a href='{pr['url']}'>#{pr_number}</a></td>")
+                html_file.write(f"<td>{pr['author']['login']}</td>")
+                html_file.write(f"<td>{package_name}/{version}</td>")
+                html_file.write(f"<td><a href='{root_url}'>{build_number}</a></td>")
+                html_file.write(f"<td>{config}</td>")
+                # html_file.write(f"<td>{packageid}</td>")
 
                 if "profile" in build:
-                    html_file.write(f"<td><a href=\"{build['profile'].path}\">link</a></td>\n")
+                    html_file.write(f"<td><a href=\"{build['profile'].path}\">link</a></td>")
                 else:
-                    html_file.write("<td></td>\n")
+                    html_file.write("<td/>")
 
                 if "build" in build:
-                    html_file.write(f"<td><a href=\"{build['build'].path}\">link</a></td>\n")
+                    html_file.write(f"<td><a href=\"{build['build'].path}\">link</a></td>")
                 else:
-                    html_file.write("<td></td>\n")
+                    html_file.write("<td/>")
 
                 if "test" in build:
-                    html_file.write(f"<td><a href=\"{build['test'].path}\">link</a></td>\n")
+                    html_file.write(f"<td><a href=\"{build['test'].path}\">link</a></td>")
                 else:
-                    html_file.write("<td></td>\n")
+                    html_file.write("<td/>")
 
-                html_file.write(f"<td>{date}</td>\n</tr>")
+                html_file.write(f"<td>{date}</td></tr>")
             descr = f"{status}"
             if n_profile:
                 descr += f", {n_profile}&nbsp;profiles"
@@ -236,10 +236,10 @@ if __name__ == '__main__':
     thead = textwrap.dedent("""
         <tr>
             <th>PR</th>
+            <th>Author</th>
             <th>Reference</th>
             <th>Build Number</th>
             <th>Config</th>
-            <th>packageID</th>
             <th>profile</th>
             <th>build</th>
             <th>test</th>
