@@ -1,5 +1,5 @@
 import re
-from datetime import datetime, timezone
+from datetime import datetime
 import subprocess
 import json
 import os
@@ -7,7 +7,7 @@ import textwrap
 import xml.etree.ElementTree as ET
 import requests
 
-f_regex = re.compile("^(\d+)(-(.+))?$")
+f_regex = re.compile(r"^(\d+)(-(.+))?$")
 
 session = requests.Session()
 
@@ -93,7 +93,7 @@ def process_pr(pr, html_file):
                 continue
             v = p.name.split("/")
             if len(v) < 2:
-                    continue
+                continue
             package_name = v[0]
             version = v[1]
             if version not in status_dict:
@@ -217,7 +217,7 @@ def process_pr(pr, html_file):
 
 def append_to_file(content, filename):
     file_exists = os.path.isfile(filename)
-    with open(filename, "a") as text_file:
+    with open(filename, "a", encoding="latin_1") as text_file:
         if not file_exists:
             text_file.write("page generated on {{ site.time | date_to_xmlschema }}\n\n")
         text_file.write(content)
@@ -231,7 +231,7 @@ if __name__ == '__main__':
     os.makedirs("author", exist_ok=True)
     os.makedirs("_includes", exist_ok=True)
 
-    html_file = open("table.html", "wt")
+    html_file = open("table.html", "wt", encoding="latin_1")
 
     thead = textwrap.dedent("""
         <tr>
@@ -315,7 +315,7 @@ if __name__ == '__main__':
         md = process_pr(pr, html_file)
 
         print(md)
-        with open(f"_includes/{pr['number']}.md", "w") as text_file:
+        with open(f"_includes/{pr['number']}.md", "w", encoding="latin_1") as text_file:
             text_file.write(md)
         md = "{% include " + str(pr['number']) + ".md %}\n"
         append_to_file(md, f"pr/{pr['number']}.md")
@@ -323,5 +323,5 @@ if __name__ == '__main__':
         append_to_file(md, f"author/{pr['author']['login']}.md")
         if  all(label["name"] not in ["Failed",  "User-approval pending", "Unexpected Error"] for label in pr['labels']) and \
             all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state","") not in ["ERROR", "SUCCESS"] for check in pr["statusCheckRollup"] or []):
-                append_to_file(md, "in_progress.md")
+            append_to_file(md, "in_progress.md")
     html_file.write(f"</tbody><tfoot>{thead}</tfoot></table></body></html>")
