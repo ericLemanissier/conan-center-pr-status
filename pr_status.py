@@ -1,3 +1,5 @@
+#pylint: disable = line-too-long, missing-module-docstring, missing-class-docstring, missing-function-docstring, invalid-name, too-many-lines, too-many-branches, too-many-locals, too-many-statements no-name-in-module, too-few-public-methods, redefined-outer-name
+
 import re
 from datetime import datetime
 import subprocess
@@ -20,7 +22,6 @@ def process_pr(pr, html_file):
 
     def iterate_folder(path, depth = 1):
         nonlocal  last_stamp
-        global session
         r = session.request("PROPFIND", path, headers={"Depth" : str(depth)})
         r.raise_for_status()
         root = ET.fromstring(r.text)
@@ -231,7 +232,7 @@ if __name__ == '__main__':
     os.makedirs("author", exist_ok=True)
     os.makedirs("_includes", exist_ok=True)
 
-    html_file = open("table.html", "wt", encoding="latin_1")
+    html_file = open("table.html", "wt", encoding="latin_1") # pylint: disable=consider-using-with
 
     thead = textwrap.dedent("""
         <tr>
