@@ -1,47 +1,49 @@
-#pylint: disable = line-too-long, missing-module-docstring, missing-class-docstring, missing-function-docstring, invalid-name, too-many-lines, too-many-branches, too-many-locals, too-many-statements no-name-in-module, too-few-public-methods, redefined-outer-name
+# pylint: disable = invalid-name,too-many-branches, too-many-locals, too-many-statements too-few-public-methods, redefined-outer-name
 
+from io import TextIOWrapper
 import re
 from datetime import datetime
 import subprocess
 import json
 import os
 import textwrap
-import xml.etree.ElementTree as ET
+from typing import Dict, Any, List, Generator
+import xml.etree.ElementTree
 import requests
 
 f_regex = re.compile(r"^(\d+)(-(.+))?$")
 
 session = requests.Session()
 
-def process_pr(pr, html_file):
+
+class Entry:
+    is_dir: bool
+    name: str
+    path: str
+    date: datetime
+
+    def __init__(self):
+        self.is_dir = None
+        self.name = None
+        self.path = None
+        self.date = None
+
+
+def process_pr(pr: Dict[str, Any], html_file: TextIOWrapper) -> str: # noqa: MC0001
     pr_number = pr["number"]
     last_stamp = None
 
     root_url = f"https://c3i.jfrog.io/c3i/misc/logs/pr/{pr_number}"
 
-
-    def iterate_folder(path, depth = 1):
-        nonlocal  last_stamp
-        r = session.request("PROPFIND", path, headers={"Depth" : str(depth)})
+    def iterate_folder(path: str, depth: int = 1) -> Generator[Entry, None, None]:
+        nonlocal last_stamp
+        r = session.request("PROPFIND", path, headers={"Depth": str(depth)})
         r.raise_for_status()
-        root = ET.fromstring(r.text)
+        root = xml.etree.ElementTree.fromstring(r.text)
         base_path = None
         for e in root:
             href_el = e[0]
             assert href_el.tag == "{DAV:}href"
-
-
-            class Entry:
-                is_dir: bool
-                name: str
-                path: str
-                date: datetime
-
-                def __init__(self):
-                    self.is_dir = None
-                    self.name = None
-                    self.path = None
-                    self.date = None
 
             res = Entry()
 
@@ -63,7 +65,7 @@ def process_pr(pr, html_file):
                 if prop.tag == "{DAV:}resourcetype":
                     res.is_dir = any(type.tag == "{DAV:}collection" for type in prop)
                 if prop.tag == "{DAV:}creationdate":
-                    creationdate= datetime.fromisoformat(prop.text[:-1])
+                    creationdate = datetime.fromisoformat(prop.text[:-1])
                     res.date = creationdate
                     if not last_stamp or creationdate > last_stamp:
                         last_stamp = creationdate
@@ -71,11 +73,12 @@ def process_pr(pr, html_file):
             yield res
 
     build_number = 0
-    configs = []
+    configs: List[str] = []
     for entry in iterate_folder(root_url):
         if not entry.is_dir:
             continue
         result = f_regex.match(entry.name)
+        assert result
         current_build_number = int(result.group(1))
         config = result.group(3)
         if current_build_number > build_number:
@@ -84,9 +87,10 @@ def process_pr(pr, html_file):
         if current_build_number == build_number:
             configs.append(config)
 
-    status_dict = {}
+    status_dict: Dict[str, Dict[str, str]] = {}
     package_name = ""
-    def process_config(path, config):
+
+    def process_config(path: str, config: str) -> None:
         nonlocal status_dict
         nonlocal package_name
         for p in iterate_folder(path, depth=2):
@@ -105,7 +109,7 @@ def process_pr(pr, html_file):
             n_build = 0
             n_test = 0
 
-            builds = {}
+            builds: Dict[str, Dict[str, Entry]] = {}
 
             for f in iterate_folder(p.path):
                 if f.name.endswith("-profile.txt"):
@@ -163,19 +167,19 @@ def process_pr(pr, html_file):
                 descr += f", {n_test}&nbsp;tests"
             status_dict[version][config or "global"] = descr
 
-    tags = []
+    tags_list: List[str] = []
     for tag in pr["labels"]:
         if tag["description"]:
-            tags.append(f'[`{tag["name"]}`](# "{tag["description"]}")')
+            tags_list.append(f'[`{tag["name"]}`](# "{tag["description"]}")')
         else:
-            tags.append(f'`{tag["name"]}`')
+            tags_list.append(f'`{tag["name"]}`')
 
-    tags = ", ".join(tags)
+    tags: str = ", ".join(tags_list)
 
     status = "NOT YET STARTED"
     for check in pr["statusCheckRollup"] or []:
         if check.get("context", "") == "continuous-integration/jenkins/pr-merge":
-            status = check.get("state","UNDEFINED")
+            status = check.get("state", "UNDEFINED")
 
     if not build_number:
         md = f"\n# [#{pr_number}]({pr['url']}): {status}\n\n"
@@ -216,7 +220,8 @@ def process_pr(pr, html_file):
         md += "\n"
     return md
 
-def append_to_file(content, filename):
+
+def append_to_file(content: str, filename: str) -> None:
     file_exists = os.path.isfile(filename)
     with open(filename, "a", encoding="latin_1") as text_file:
         if not file_exists:
@@ -232,7 +237,7 @@ if __name__ == '__main__':
     os.makedirs("author", exist_ok=True)
     os.makedirs("_includes", exist_ok=True)
 
-    html_file = open("table.html", "wt", encoding="latin_1") # pylint: disable=consider-using-with
+    html_file = open("table.html", "wt", encoding="latin_1")  # pylint: disable=consider-using-with
 
     thead = textwrap.dedent("""
         <tr>
@@ -322,7 +327,7 @@ if __name__ == '__main__':
         append_to_file(md, f"pr/{pr['number']}.md")
         append_to_file(md, "index.md")
         append_to_file(md, f"author/{pr['author']['login']}.md")
-        if  all(label["name"] not in ["Failed",  "User-approval pending", "Unexpected Error"] for label in pr['labels']) and \
-            all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state","") not in ["ERROR", "SUCCESS"] for check in pr["statusCheckRollup"] or []):
+        if all(label["name"] not in ["Failed",  "User-approval pending", "Unexpected Error"] for label in pr['labels']) and \
+           all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state", "") not in ["ERROR", "SUCCESS"] for check in pr["statusCheckRollup"] or []):
             append_to_file(md, "in_progress.md")
     html_file.write(f"</tbody><tfoot>{thead}</tfoot></table></body></html>")
