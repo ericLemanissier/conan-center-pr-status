@@ -66,6 +66,7 @@ def process_pr(pr: Dict[str, Any], html_file: TextIOWrapper) -> str: # noqa: MC0
                 if prop.tag == "{DAV:}resourcetype":
                     res.is_dir = any(type.tag == "{DAV:}collection" for type in prop)
                 if prop.tag == "{DAV:}creationdate":
+                    assert prop.text
                     creationdate = datetime.fromisoformat(prop.text[:-1])
                     res.date = creationdate
                     if not last_stamp or creationdate > last_stamp:
