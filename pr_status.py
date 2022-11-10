@@ -40,7 +40,7 @@ def process_pr(pr: Dict[str, Any], html_file: TextIOWrapper) -> str: # noqa: MC0
         r = session.request("PROPFIND", path, headers={"Depth": str(depth)})
         r.raise_for_status()
         root = xml.etree.ElementTree.fromstring(r.text)
-        base_path = None
+        base_path = ""
         for e in root:
             href_el = e[0]
             assert href_el.tag == "{DAV:}href"
@@ -51,6 +51,7 @@ def process_pr(pr: Dict[str, Any], html_file: TextIOWrapper) -> str: # noqa: MC0
             if not base_path:
                 base_path = cur_path
                 continue
+            assert cur_path
             assert cur_path.startswith(base_path)
             res.name = cur_path[len(base_path) + 1:]
             res.path = f"{path}/{res.name}"
