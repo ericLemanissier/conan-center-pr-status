@@ -48,7 +48,7 @@ def process_pr(pr: Dict[str, Any], html_file: TextIOWrapper) -> str: # noqa: MC0
             res = Entry()
 
             cur_path = href_el.text
-            if not base_path:
+            if cur_path and not base_path:
                 base_path = cur_path
                 continue
             assert cur_path
