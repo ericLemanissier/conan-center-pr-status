@@ -2,6 +2,7 @@ import textwrap
 from io import TextIOWrapper
 from typing import List, Generator
 from contextlib import contextmanager
+from datetime import datetime
 
 
 @contextmanager
@@ -21,7 +22,10 @@ def html_table(file_name: str, thead: List[str]) -> Generator[TextIOWrapper, Non
                 </style>
             </head>
 
-            <body>
+            <body>"""))
+        file_obj.write(f"<p>page generated on {datetime.now()}</p>\n")
+
+        file_obj.write(textwrap.dedent("""\
                 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
                         crossorigin="anonymous"></script>
                 <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
