@@ -5,10 +5,10 @@ from datetime import datetime
 import subprocess
 import json
 import os
-import textwrap
 from typing import Dict, Any, List, Tuple, Generator
 import xml.etree.ElementTree
 import requests
+from html_table import html_table
 
 f_regex = re.compile(r"^(\d+)(-(.+))?$")
 
@@ -28,7 +28,7 @@ class Entry:
         self.date = None
 
 
-def process_pr(pr: Dict[str, Any]) -> Tuple[str, List[List[str]]]: # noqa: MC0001
+def process_pr(pr: Dict[str, Any]) -> Tuple[str, List[List[str]]]:  # noqa: MC0001
     pr_number = pr["number"]
     last_stamp = None
 
@@ -214,7 +214,7 @@ def process_pr(pr: Dict[str, Any]) -> Tuple[str, List[List[str]]]: # noqa: MC000
 
 def append_to_file(content: str, filename: str) -> None:
     file_exists = os.path.isfile(filename)
-    with open(filename, "a", encoding="latin_1") as text_file:
+    with open(filename, "at", encoding="latin_1") as text_file:
         if not file_exists:
             text_file.write("page generated on {{ site.time | date_to_xmlschema }}\n\n")
         text_file.write(content)
@@ -228,104 +228,51 @@ if __name__ == '__main__':
     os.makedirs("author", exist_ok=True)
     os.makedirs("_includes", exist_ok=True)
 
-    html_file = open("table.html", "wt", encoding="latin_1")  # pylint: disable=consider-using-with
+    thead = ["PR",
+             "Author",
+             "Reference",
+             "Build Number",
+             "Config",
+             "profile",
+             "build",
+             "test",
+             "date"]
 
-    thead = textwrap.dedent("""
-        <tr>
-            <th>PR</th>
-            <th>Author</th>
-            <th>Reference</th>
-            <th>Build Number</th>
-            <th>Config</th>
-            <th>profile</th>
-            <th>build</th>
-            <th>test</th>
-            <th>date</th>
-        </tr>""")
+    with html_table("table.html", thead) as html_file:
+        with html_table("in_progress_table.html", thead) as in_progress_table:
 
-    html_file.write(textwrap.dedent("""\
-        <!DOCTYPE html>
-        <html lang="en">
+            append_to_file("This page lists all the ongoing pull requests on conan-center-index.\\\n", "index.md")
+            url = "{{ site.url }}/conan-center-pr-status/author/author_handle"
+            append_to_file(f"You can filter by author by going to [{url}]({url}).\\\n", "index.md")
+            url = "{{ site.url }}/conan-center-pr-status/pr/pr_number"
+            append_to_file(f"You can view a specific PR by going to [{url}]({url}).\n\n", "index.md")
+            url = "{{ site.url }}/conan-center-pr-status/table"
+            append_to_file(f"You can view all the jobs in tabular view by going to [{url}]({url}).\n\n", "index.md")
 
-        <head>
-            <title>ConanCenter - summary</title>
-            <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>
-            <style>
-                tr td {
-                    white-space: nowrap;
-                }
-            </style>
-        </head>
+            for pr in prs:
+                command = ["gh", "pr", "view", str(pr['number']), "--json", "number,author,labels,statusCheckRollup,url", "--repo", "conan-io/conan-center-index"]
+                output = subprocess.check_output(command)
+                pr = json.loads(output)
+                md, table = process_pr(pr)
+                html = ""
+                for line in table:
+                    html += "<tr>"
+                    for cell in line:
+                        html += f"<td>{cell}</td>" if cell else "<td/>"
+                    html += "</tr>"
+                html_file.write(html)
 
-        <body>
-            <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-                    crossorigin="anonymous"></script>
-            <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
-            <script>
-                $(document).ready( function () {
-
-                    // Setup - add a text input to each footer cell
-                    $('#summary tfoot th').each(function () {
-                        var title = $(this).text();
-                        $(this).html('<input type="text" placeholder="Filter ' + title + '" style="width:100%"/>');
-                    });
-
-                    $('#summary').DataTable({
-                        scrollX: true,
-                        scrollY: '80vh',
-                        scrollCollapse: true,
-                        paging: false,
-                        order: [[8, 'desc']],
-                        initComplete: function () {
-                            // Apply the search
-                            this.api()
-                                .columns()
-                                .every(function () {
-                                    var that = this;
-
-                                    $('input', this.footer()).on('keyup change clear', function () {
-                                        if (that.search() !== this.value) {
-                                            that.search(this.value).draw();
-                                        }
-                                    });
-                                });
-                        },
-                    });
-                } );
-            </script>
-            <table id="summary" class="stripe hover order-column row-border compact nowrap" style="width:100%">
-            """))
-    html_file.write(f"<thead>{thead}</thead><tbody>")
-
-    append_to_file("This page lists all the ongoing pull requests on conan-center-index.\\\n", "index.md")
-    url = "{{ site.url }}/conan-center-pr-status/author/author_handle"
-    append_to_file(f"You can filter by author by going to [{url}]({url}).\\\n", "index.md")
-    url = "{{ site.url }}/conan-center-pr-status/pr/pr_number"
-    append_to_file(f"You can view a specific PR by going to [{url}]({url}).\n\n", "index.md")
-    url = "{{ site.url }}/conan-center-pr-status/table"
-    append_to_file(f"You can view all the jobs in tabular view by going to [{url}]({url}).\n\n", "index.md")
-
-    for pr in prs:
-        command = ["gh", "pr", "view", str(pr['number']), "--json", "number,author,labels,statusCheckRollup,url", "--repo", "conan-io/conan-center-index"]
-        output = subprocess.check_output(command)
-        pr = json.loads(output)
-        md, table = process_pr(pr)
-        html = ""
-        for line in table:
-            html += "<tr>"
-            for cell in line:
-                html += f"<td>{cell}</td>" if cell else "<td/>"
-            html += "</tr>"
-        html_file.write(html)
-
-        print(md)
-        with open(f"_includes/{pr['number']}.md", "w", encoding="latin_1") as text_file:
-            text_file.write(md)
-        md = "{% include " + str(pr['number']) + ".md %}\n"
-        append_to_file(md, f"pr/{pr['number']}.md")
-        append_to_file(md, "index.md")
-        append_to_file(md, f"author/{pr['author']['login']}.md")
-        if all(label["name"] not in ["User-approval pending", "Unexpected Error"] for label in pr['labels']) and \
-           all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state", "") not in ["ERROR", "SUCCESS"] for check in pr["statusCheckRollup"] or []):
-            append_to_file(md, "in_progress.md")
-    html_file.write(f"</tbody><tfoot>{thead}</tfoot></table></body></html>")
+                print(md)
+                with open(f"_includes/{pr['number']}.md", "w", encoding="latin_1") as text_file:
+                    text_file.write(md)
+                with html_table(f"pr/{pr['number']}_table.html", thead) as pr_table:
+                    pr_table.write(html)
+                md = "{% include " + str(pr['number']) + ".md %}\n"
+                append_to_file(md, f"pr/{pr['number']}.md")
+                append_to_file(md, "index.md")
+                append_to_file(md, f"author/{pr['author']['login']}.md")
+                if all(label["name"] not in ["User-approval pending", "Unexpected Error"] for label in pr['labels']) and \
+                    all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state", "") not in ["ERROR", "SUCCESS"]
+                        for check in pr["statusCheckRollup"] or []):
+                    append_to_file(md, "in_progress.md")
+                    in_progress_table.write(html)
