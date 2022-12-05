@@ -1,13 +1,12 @@
 # pylint: disable = invalid-name,too-many-branches, too-many-locals, too-many-statements too-few-public-methods, redefined-outer-name
 
-from io import TextIOWrapper
 import re
 from datetime import datetime
 import subprocess
 import json
 import os
 import textwrap
-from typing import Dict, Any, List, Generator
+from typing import Dict, Any, List, Tuple, Generator
 import xml.etree.ElementTree
 import requests
 
@@ -29,9 +28,11 @@ class Entry:
         self.date = None
 
 
-def process_pr(pr: Dict[str, Any], html_file: TextIOWrapper) -> str: # noqa: MC0001
+def process_pr(pr: Dict[str, Any]) -> Tuple[str, List[List[str]]]: # noqa: MC0001
     pr_number = pr["number"]
     last_stamp = None
+
+    table: List[List[str]] = []
 
     root_url = f"https://c3i.jfrog.io/c3i/misc/logs/pr/{pr_number}"
 
@@ -137,30 +138,17 @@ def process_pr(pr: Dict[str, Any], html_file: TextIOWrapper) -> str: # noqa: MC0
                     status = f"[finished](https://c3i.jfrog.io/c3i/misc/summary.html?json={f.path})"
             for packageid, build in builds.items():
                 date = max(f.date for f in build.values())
-                html_file.write("<tr>")
-                html_file.write(f"<td><a href='{pr['url']}'>#{pr_number}</a></td>")
-                html_file.write(f"<td>{pr['author']['login']}</td>")
-                html_file.write(f"<td>{package_name}/{version}</td>")
-                html_file.write(f"<td><a href='{root_url}'>{build_number}</a></td>")
-                html_file.write(f"<td>{config}</td>")
-                # html_file.write(f"<td>{packageid}</td>")
-
-                if "profile" in build:
-                    html_file.write(f"<td><a href=\"{build['profile'].path}\">link</a></td>")
-                else:
-                    html_file.write("<td/>")
-
-                if "build" in build:
-                    html_file.write(f"<td><a href=\"{build['build'].path}\">link</a></td>")
-                else:
-                    html_file.write("<td/>")
-
-                if "test" in build:
-                    html_file.write(f"<td><a href=\"{build['test'].path}\">link</a></td>")
-                else:
-                    html_file.write("<td/>")
-
-                html_file.write(f"<td>{date}</td></tr>")
+                table.append([
+                    f"<a href='{pr['url']}'>#{pr_number}</a>",
+                    f"{pr['author']['login']}",
+                    f"{package_name}/{version}",
+                    f"<a href='{root_url}'>{build_number}</a>",
+                    f"{config}",
+                    # f"{packageid}",
+                    f"<a href=\"{build['profile'].path}\">link</a>" if "profile" in build else "",
+                    f"<a href=\"{build['build'].path}\">link</a>" if "build" in build else "",
+                    f"<a href=\"{build['test'].path}\">link</a>" if "test" in build else "",
+                    f"{date}"])
             descr = f"{status}"
             if n_profile:
                 descr += f", {n_profile}&nbsp;profiles"
@@ -221,7 +209,7 @@ def process_pr(pr: Dict[str, Any], html_file: TextIOWrapper) -> str: # noqa: MC0
                 md += f" {i.get(config, '')} |"
             md += "\n"
         md += "\n"
-    return md
+    return md, table
 
 
 def append_to_file(content: str, filename: str) -> None:
@@ -321,7 +309,14 @@ if __name__ == '__main__':
         command = ["gh", "pr", "view", str(pr['number']), "--json", "number,author,labels,statusCheckRollup,url", "--repo", "conan-io/conan-center-index"]
         output = subprocess.check_output(command)
         pr = json.loads(output)
-        md = process_pr(pr, html_file)
+        md, table = process_pr(pr)
+        html = ""
+        for line in table:
+            html += "<tr>"
+            for cell in line:
+                html += f"<td>{cell}</td>" if cell else "<td/>"
+            html += "</tr>"
+        html_file.write(html)
 
         print(md)
         with open(f"_includes/{pr['number']}.md", "w", encoding="latin_1") as text_file:
