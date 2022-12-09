@@ -238,41 +238,41 @@ if __name__ == '__main__':
              "test",
              "date"]
 
-    with html_table("table.html", thead) as html_file:
-        with html_table("in_progress_table.html", thead) as in_progress_table:
+    index = "index.md"
 
-            append_to_file("This page lists all the ongoing pull requests on conan-center-index.\\\n", "index.md")
-            url = "{{ site.url }}/conan-center-pr-status/author/author_handle"
-            append_to_file(f"You can filter by author by going to [{url}]({url}).\\\n", "index.md")
-            url = "{{ site.url }}/conan-center-pr-status/pr/pr_number"
-            append_to_file(f"You can view a specific PR by going to [{url}]({url}).\n\n", "index.md")
-            url = "{{ site.url }}/conan-center-pr-status/table"
-            append_to_file(f"You can view all the jobs in tabular view by going to [{url}]({url}).\n\n", "index.md")
+    with html_table("build_log_table.html", thead) as build_log_table:
 
-            for pr in prs:
-                command = ["gh", "pr", "view", str(pr['number']), "--json", "number,author,labels,statusCheckRollup,url", "--repo", "conan-io/conan-center-index"]
-                output = subprocess.check_output(command)
-                pr = json.loads(output)
-                md, table = process_pr(pr)
-                html = ""
-                for line in table:
-                    html += "<tr>"
-                    for cell in line:
-                        html += f"<td>{cell}</td>" if cell else "<td/>"
-                    html += "</tr>"
-                html_file.write(html)
+        append_to_file("This page lists all the ongoing pull requests on conan-center-index.\\\n", index)
+        url = "{{ site.url }}/conan-center-pr-status/author/author_handle"
+        append_to_file(f"You can filter by author by going to [{url}]({url}).\\\n", index)
+        url = "{{ site.url }}/conan-center-pr-status/pr/pr_number"
+        append_to_file(f"You can view a specific PR by going to [{url}]({url}).\n\n", index)
+        url = "{{ site.url }}/conan-center-pr-status/build_log_table"
+        append_to_file(f"You can view all the jobs in tabular view by going to [{url}]({url}).\n\n", index)
 
-                print(md)
-                with open(f"_includes/{pr['number']}.md", "w", encoding="latin_1") as text_file:
-                    text_file.write(md)
-                with html_table(f"pr/{pr['number']}_table.html", thead) as pr_table:
-                    pr_table.write(html)
-                md = "{% include " + str(pr['number']) + ".md %}\n"
-                append_to_file(md, f"pr/{pr['number']}.md")
-                append_to_file(md, "index.md")
-                append_to_file(md, f"author/{pr['author']['login']}.md")
-                if all(label["name"] not in ["User-approval pending", "Unexpected Error"] for label in pr['labels']) and \
-                    all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state", "") not in ["ERROR", "SUCCESS"]
-                        for check in pr["statusCheckRollup"] or []):
-                    append_to_file(md, "in_progress.md")
-                    in_progress_table.write(html)
+        for pr in prs:
+            command = ["gh", "pr", "view", str(pr['number']), "--json", "number,author,labels,statusCheckRollup,url", "--repo", "conan-io/conan-center-index"]
+            output = subprocess.check_output(command)
+            pr = json.loads(output)
+            md, table = process_pr(pr)
+            html = ""
+            for line in table:
+                html += "<tr>"
+                for cell in line:
+                    html += f"<td>{cell}</td>" if cell else "<td/>"
+                html += "</tr>"
+
+            print(md)
+            with open(f"_includes/{pr['number']}.md", "w", encoding="latin_1") as text_file:
+                text_file.write(md)
+            with html_table(f"pr/{pr['number']}_table.html", thead) as pr_table:
+                pr_table.write(html)
+            md = "{% include " + str(pr['number']) + ".md %}\n"
+            append_to_file(md, f"pr/{pr['number']}.md")
+            append_to_file(md, index)
+            append_to_file(md, f"author/{pr['author']['login']}.md")
+            if all(label["name"] not in ["User-approval pending", "Unexpected Error"] for label in pr['labels']) and \
+                all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state", "") not in ["ERROR", "SUCCESS"]
+                    for check in pr["statusCheckRollup"] or []):
+                append_to_file(md, "in_progress.md")
+                build_log_table.write(html)
