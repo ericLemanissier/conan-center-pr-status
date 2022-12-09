@@ -297,7 +297,8 @@ if __name__ == '__main__':
     for config, jobs in in_progress_jobs.items():
         append_to_file(f"\n# {config}\n", in_progress_jobs_file)
         append_to_file(f"Number of builds in progress: {len(jobs)}\n\n", in_progress_jobs_file)
-        append_to_file("| PR | Reference | profile | date |\n", in_progress_jobs_file)
-        append_to_file("| - | - | - | - |\n", in_progress_jobs_file)
-        for job in jobs:
-            append_to_file(f"| {' | '.join(job)} |\n", in_progress_jobs_file)
+        if jobs:
+            append_to_file("| PR | Reference | profile | date |\n", in_progress_jobs_file)
+            append_to_file("| - | - | - | - |\n", in_progress_jobs_file)
+            for j in jobs:
+                append_to_file(f"| {' | '.join(j)} |\n", in_progress_jobs_file)
