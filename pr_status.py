@@ -250,6 +250,8 @@ if __name__ == '__main__':
         url = "{{ site.url }}/conan-center-pr-status/build_log_table"
         append_to_file(f"You can view all the jobs in tabular view by going to [{url}]({url}).\n\n", index)
 
+        in_progress_jobs: Dict[str, List[List[str]]] = {}
+
         for pr in prs:
             command = ["gh", "pr", "view", str(pr['number']), "--json", "number,author,labels,statusCheckRollup,url", "--repo", "conan-io/conan-center-index"]
             output = subprocess.check_output(command)
@@ -276,3 +278,26 @@ if __name__ == '__main__':
                     for check in pr["statusCheckRollup"] or []):
                 append_to_file(md, "in_progress.md")
                 build_log_table.write(html)
+
+                for line in table:
+                    job: Dict[str, str] = {}
+                    for i, header in enumerate(thead):
+                        job[header] = line[i]
+                    if job["Config"] not in in_progress_jobs:
+                        in_progress_jobs[job["Config"]] = []
+                    if job["test"]:
+                        continue
+                    in_progress_jobs[job["Config"]].append([
+                        job["PR"],
+                        job["Reference"],
+                        job["profile"],
+                        job["date"]])
+
+    in_progress_jobs_file = "in_progress_jobs.md"
+    for config, jobs in in_progress_jobs.items():
+        append_to_file(f"\n# {config}\n", in_progress_jobs_file)
+        append_to_file(f"Number of builds in progress: {len(jobs)}\n\n", in_progress_jobs_file)
+        append_to_file("| PR | Reference | profile | date |\n", in_progress_jobs_file)
+        append_to_file("| - | - | - | - |\n", in_progress_jobs_file)
+        for job in jobs:
+            append_to_file(f"| {' | '.join(job)} |\n", in_progress_jobs_file)
