@@ -8,6 +8,7 @@ import os
 from typing import Dict, Any, List, Tuple, Generator
 import xml.etree.ElementTree
 import requests
+from progress.bar import Bar
 from html_table import html_table
 
 f_regex = re.compile(r"^(\d+)(-(.+))?$")
@@ -252,7 +253,7 @@ if __name__ == '__main__':
 
         in_progress_jobs: Dict[str, List[List[str]]] = {}
 
-        for pr in prs:
+        for pr in Bar('Processing').iter(prs):
             command = ["gh", "pr", "view", str(pr['number']), "--json", "number,author,labels,statusCheckRollup,url", "--repo", "conan-io/conan-center-index"]
             output = subprocess.check_output(command)
             pr = json.loads(output)
@@ -264,7 +265,6 @@ if __name__ == '__main__':
                     html += f"<td>{cell}</td>" if cell else "<td/>"
                 html += "</tr>"
 
-            print(md)
             with open(f"_includes/{pr['number']}.md", "w", encoding="latin_1") as text_file:
                 text_file.write(md)
             with html_table(f"pr/{pr['number']}_table.html", thead) as pr_table:
