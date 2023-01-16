@@ -51,7 +51,7 @@ jobs:
         shell: bash
 
       - name: Set up Pyre
-        run: pyre init
+        run: yes "" | pyre init
         shell: bash
 
       - name: Run Pyre
