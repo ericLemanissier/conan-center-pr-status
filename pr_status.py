@@ -5,6 +5,7 @@ from datetime import datetime
 import subprocess
 import json
 import os
+import logging
 from typing import Dict, Any, List, Tuple, Generator
 import xml.etree.ElementTree
 import requests
@@ -215,10 +216,13 @@ def process_pr(pr: Dict[str, Any]) -> Tuple[str, List[List[str]]]:  # noqa: MC00
 
 def append_to_file(content: str, filename: str) -> None:
     file_exists = os.path.isfile(filename)
-    with open(filename, "at", encoding="latin_1") as text_file:
-        if not file_exists:
-            text_file.write("page generated on {{ site.time | date_to_xmlschema }}\n\n")
-        text_file.write(content)
+    try:
+        with open(filename, "at", encoding="latin_1") as text_file:
+            if not file_exists:
+                text_file.write("page generated on {{ site.time | date_to_xmlschema }}\n\n")
+            text_file.write(content)
+    except OSError as err:
+        logging.error("Error appending to file %s: %s", filename, err)
 
 
 if __name__ == '__main__':
