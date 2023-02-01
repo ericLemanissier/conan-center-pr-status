@@ -9,7 +9,7 @@ import logging
 from typing import Dict, Any, List, Tuple, Generator
 import xml.etree.ElementTree
 import requests
-from progress.bar import Bar
+from tqdm import tqdm
 from html_table import html_table
 
 f_regex = re.compile(r"^(\d+)(-(.+))?$")
@@ -257,7 +257,7 @@ if __name__ == '__main__':
 
         in_progress_jobs: Dict[str, List[List[str]]] = {}
 
-        for pr in Bar('Processing').iter(prs):
+        for pr in tqdm(prs):
             command = ["gh", "pr", "view", str(pr['number']), "--json", "number,author,labels,statusCheckRollup,url", "--repo", "conan-io/conan-center-index"]
             output = subprocess.check_output(command)
             pr = json.loads(output)
