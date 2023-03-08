@@ -225,8 +225,9 @@ def append_to_file(content: str, filename: str) -> None:
         logging.error("Error appending to file %s: %s", filename, err)
 
 
-if __name__ == '__main__':
-    command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index", "--limit", "2000", "--search", "-label:\"User-approval pending\" -author:conan-center-bot -label:\"C3I config\" -label:Docs -label:stale"]
+def main():
+    command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index", "--limit", "2000",
+               "--search", "-label:\"User-approval pending\" -author:conan-center-bot -label:\"C3I config\" -label:Docs -label:stale"]
     output = subprocess.check_output(command)
     prs = json.loads(output)
     os.makedirs("pr", exist_ok=True)
@@ -306,3 +307,6 @@ if __name__ == '__main__':
             append_to_file("| - | - | - | - |\n", in_progress_jobs_file)
             for j in jobs:
                 append_to_file(f"| {' | '.join(j)} |\n", in_progress_jobs_file)
+
+if __name__ == '__main__':
+    main()
