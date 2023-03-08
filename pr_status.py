@@ -1,4 +1,4 @@
-# pylint: disable = invalid-name,too-many-branches, too-many-locals, too-many-statements too-few-public-methods
+# pylint: disable = invalid-name,too-many-branches, too-many-locals, too-many-statements
 
 import re
 from datetime import datetime
