@@ -1,4 +1,4 @@
-# pylint: disable = invalid-name,too-many-branches, too-many-locals, too-many-statements too-few-public-methods, redefined-outer-name
+# pylint: disable = invalid-name,too-many-branches, too-many-locals, too-many-statements too-few-public-methods
 
 import re
 from datetime import datetime
@@ -225,7 +225,7 @@ def append_to_file(content: str, filename: str) -> None:
         logging.error("Error appending to file %s: %s", filename, err)
 
 
-def main():
+def main() -> None:  # noqa: MC0001
     command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index", "--limit", "2000",
                "--search", "-label:\"User-approval pending\" -author:conan-center-bot -label:\"C3I config\" -label:Docs -label:stale"]
     output = subprocess.check_output(command)
@@ -307,6 +307,7 @@ def main():
             append_to_file("| - | - | - | - |\n", in_progress_jobs_file)
             for j in jobs:
                 append_to_file(f"| {' | '.join(j)} |\n", in_progress_jobs_file)
+
 
 if __name__ == '__main__':
     main()
