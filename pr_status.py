@@ -226,7 +226,7 @@ def append_to_file(content: str, filename: str) -> None:
 
 
 if __name__ == '__main__':
-    command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index", "--limit", "2000"]
+    command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index", "--limit", "2000", "--search", "-label:\"User-approval pending\" -author:conan-center-bot -label:\"C3I config\" -label:Docs -label:stale"]
     output = subprocess.check_output(command)
     prs = json.loads(output)
     os.makedirs("pr", exist_ok=True)
