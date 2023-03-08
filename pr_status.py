@@ -277,7 +277,7 @@ if __name__ == '__main__':
             append_to_file(md, f"pr/{pr['number']}.md")
             append_to_file(md, index)
             append_to_file(md, f"author/{pr['author']['login']}.md")
-            if all(label["name"] not in ["User-approval pending", "Unexpected Error"] for label in pr['labels']) and \
+            if all(label["name"] not in ["User-approval pending"] for label in pr['labels']) and \
                 all(check.get("context", "") != "continuous-integration/jenkins/pr-merge" or check.get("state", "") not in ["ERROR", "SUCCESS"]
                     for check in pr["statusCheckRollup"] or []):
                 append_to_file(md, "in_progress.md")
