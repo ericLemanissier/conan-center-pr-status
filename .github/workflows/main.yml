@@ -27,7 +27,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir pages
+          mkdir -p pages
           cd pages
           python ../pr_status.py
       - name: Setup Pages
