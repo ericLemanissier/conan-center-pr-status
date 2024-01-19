@@ -10,11 +10,15 @@ from typing import Dict, Any, List, Tuple, Generator
 import xml.etree.ElementTree
 import requests
 from tqdm import tqdm
+from yaml import safe_load
 from html_table import html_table
 
 f_regex = re.compile(r"^(\d+)(-(.+))?$")
 
 session = requests.Session()
+
+with open('../conan-center-index/.c3i/config_v1.yml', encoding='utf-8') as config_file:
+    config_v1 = safe_load(config_file)
 
 
 class Entry:
@@ -182,19 +186,13 @@ def process_pr(pr: Dict[str, Any]) -> Tuple[str, List[List[str]]]:  # noqa: MC00
     else:
         for config in configs:
             current_path = f"{root_url}/{build_number}" + (f"-{config}" if config else "")
-            if config == "configs":
-                for entry in iterate_folder(current_path):
-                    if not entry.is_dir:
-                        continue
-                    process_config(entry.path, entry.name)
-            else:
-                process_config(current_path, config)
+            process_config(current_path, config)
 
         md = f"\n# {package_name} [#{pr_number}]({pr['url']}): {status}\n\n"
         if tags:
             md += f"labels: {tags}\n\n"
         md += f"[build {build_number}]({root_url}). last update on {last_stamp}\n"
-        configs = ["global", "linux-gcc", "linux-clang", "windows-visual_studio", "macos-clang", "macos-m1-clang"]
+        configs = ["global"] + [c['id'] for c in config_v1['configurations']]
         md += "\n| version |"
         for config in configs:
             md += f" {config} |"
