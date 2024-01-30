@@ -40,7 +40,7 @@ def process_pr(pr: Dict[str, Any]) -> Tuple[str, List[List[str]]]:  # noqa: MC00
 
     table: List[List[str]] = []
 
-    root_url = f"https://c3i.jfrog.io/c3i/misc/logs/pr/{pr_number}"
+    root_url = f"{config_v1['artifactory']['url']}/{config_v1['artifactory']['logs_repo']}/logs/pr/{pr_number}"
 
     def iterate_folder(path: str, depth: int = 1) -> Generator[Entry, None, None]:
         nonlocal last_stamp
@@ -224,10 +224,24 @@ def append_to_file(content: str, filename: str) -> None:
 
 
 def main() -> None:  # noqa: MC0001
+    output = subprocess.check_output(["gh", "api", "rate_limit"])
+    rate_limit = json.loads(output)
+    if rate_limit["resources"]["graphql"]["remaining"] < 1:
+        logging.error("github API rate limit reached: %s", rate_limit["resources"]["graphql"])
+        with open(os.getenv("GITHUB_OUTPUT", "GITHUB_OUTPUT"), "at", encoding="utf-8") as file:
+            file.write("API_REMAINING=0")
+        return
     command = ["gh", "pr", "list", "--json", "number", "--repo", "conan-io/conan-center-index", "--limit", "2000",
                "--search", "-label:\"User-approval pending\" -author:conan-center-bot -label:\"C3I config\" -label:Docs -label:stale"]
     output = subprocess.check_output(command)
     prs = json.loads(output)
+    output = subprocess.check_output(["gh", "api", "rate_limit"])
+    rate_limit = json.loads(output)
+    if rate_limit["resources"]["graphql"]["remaining"] < len(prs):
+        logging.error("github API rate limit reached for %s prs: %s", len(prs), rate_limit["resources"]["graphql"])
+        with open(os.getenv("GITHUB_OUTPUT", "GITHUB_OUTPUT"), "at", encoding="utf-8") as file:
+            file.write("API_REMAINING=0")
+        return
     os.makedirs("pr", exist_ok=True)
     os.makedirs("author", exist_ok=True)
     os.makedirs("_includes", exist_ok=True)

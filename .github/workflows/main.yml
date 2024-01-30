@@ -14,6 +14,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      API_REMAINING: ${{ steps.generate_page.outputs.API_REMAINING }}
 
     steps:
       - uses: actions/checkout@v4
@@ -28,20 +30,25 @@ jobs:
       - run: python3 -m pip install -r requirements.txt
 
       - name: Generate web page
+        id: generate_page
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p pages
           cd pages
+          echo "API_REMAINING=$(gh api rate_limit -q .resources.graphql.remaining)" >> "$GITHUB_OUTPUT"
           python ../pr_status.py
       - name: Setup Pages
+        if: ${{ steps.generate_page.outputs.API_REMAINING != '0' }}
         uses: actions/configure-pages@v4          
       - name: Build with Jekyll
+        if: ${{ steps.generate_page.outputs.API_REMAINING != '0' }}
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./pages
           destination: ./_site
       - name: Upload artifact
+        if: ${{ steps.generate_page.outputs.API_REMAINING != '0' }}
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
@@ -58,6 +65,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    if: ${{ needs.build.outputs.API_REMAINING != '0' }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
