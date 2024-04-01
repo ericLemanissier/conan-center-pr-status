@@ -40,7 +40,7 @@ jobs:
           python ../pr_status.py
       - name: Setup Pages
         if: ${{ steps.generate_page.outputs.API_REMAINING != '0' }}
-        uses: actions/configure-pages@v4          
+        uses: actions/configure-pages@v5          
       - name: Build with Jekyll
         if: ${{ steps.generate_page.outputs.API_REMAINING != '0' }}
         uses: actions/jekyll-build-pages@v1
